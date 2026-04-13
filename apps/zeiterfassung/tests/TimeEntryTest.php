@@ -102,6 +102,12 @@ class TimeEntryTest extends WebTestCase
 
         $logout_response = $this->postTimeentry($token, $costumer->getId());
         $this->assertResponseIsSuccessful('Could not checkout TimeEntry: '.$content);
+
+        $existing = $timeEntryRepository->getTimeEntryForUser($costumer);
+        if($existing){
+            $this->entityManager->remove($existing);
+            $this->entityManager->flush();
+        }
     }
 
     public function testOptionalTimestamp(): void
@@ -127,6 +133,12 @@ class TimeEntryTest extends WebTestCase
         $res = json_decode($this->client->getResponse()->getContent(), true);
         var_dump($res);
         $this->assertTrue($time_to_post === $res["time"], "posted time ".$time_to_post." is not the same as saved time ".$res["time"] ?? $this->client->getResponse()->getContent());
+
+        $existing = $timeEntryRepository->getTimeEntryForUser($costumer);
+        if($existing){
+            $this->entityManager->remove($existing);
+            $this->entityManager->flush();
+        }
     }
 
 
