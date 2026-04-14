@@ -1,6 +1,6 @@
 <?php
 
-namespace Kantine\DataFixtures;
+namespace Shared\DataFixtures;
 
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
