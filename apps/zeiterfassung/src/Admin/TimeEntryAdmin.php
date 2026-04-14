@@ -26,10 +26,19 @@ use Symfony\Component\Translation\TranslatableMessage;
 
 final class TimeEntryAdmin extends AbstractAdmin
 {
-    protected $baseRouteName = 'admin_time_entry';
-    protected $baseRoutePattern = 'attendance';
-    public function __construct(private UsageTrackingTokenStorage $ts)
+    public function __construct(private UsageTrackingTokenStorage $ts){}
+
+    // DEPRICATED
+    // protected $baseRouteName = 'admin_time_entry';
+    // protected $baseRoutePattern = 'attendance';
+    protected function generateBaseRouteName(bool $isChildAdmin = false): string
     {
+        return 'admin_time_entry';
+    }
+
+    protected function generateBaseRoutePattern(bool $isChildAdmin = false): string
+    {
+        return 'attendance';
     }
 
     // -------------------------------------------------------------------
@@ -98,9 +107,7 @@ final class TimeEntryAdmin extends AbstractAdmin
                 'minimum_input_length' => 1,
                 'to_string_callback' => fn($user, $property) =>  $this->costumerToStr($user),
                 'constraints' => [
-                    new NotNull([
-                        'message' => 'Please select a user.',
-                    ]),
+                    new NotNull(null, 'Please select a user.'),
                 ],
             ])
             ->add('checkinTime', DateTimePickerType::class, [

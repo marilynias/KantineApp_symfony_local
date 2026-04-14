@@ -83,6 +83,6 @@ class TimeEntry
 
     public function __toString(): string
     {
-        return $this->user ? $this->user->getFirstname(). " ". $this->user->getLastname() : 'Unknown User';
+        return $this->user ? $this->user->getFullName() : 'Unknown User';
     }
 }
