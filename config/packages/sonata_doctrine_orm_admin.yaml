@@ -5,3 +5,4 @@ sonata_doctrine_orm_admin:
                 barcode: 'admin/Barcode_show_field.html.twig'
             list:
                 barcode: 'admin/Barcode_list_field.html.twig'
+                tags_lst: 'admin/list_choice.html.twig'

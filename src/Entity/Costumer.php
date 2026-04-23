@@ -37,7 +37,7 @@ class Costumer
         "Media" => "MEDIA",
         "BVB" => "BVB",
         "Aperio" => "APERIO",
-        "No Dept" => null
+        "dept.none" => ""
         ];
 
     #[ORM\Id]
@@ -49,47 +49,51 @@ class Costumer
     public function getFirstname() {return $this->firstname;}
     public function setFirstname(string $firstname):static {$this->firstname = $firstname; return $this;}
     #[ORM\Column(length: 50)]
-    public string $firstname = ''
-    {
-        get => ucwords(trim($this->firstname));
-        set(string $firstname){
-            $this->firstname = strtolower(trim($firstname));    // trimmed and lowercase
-        }
-    }
+    private string $firstname;
+    // public string $firstname = ''
+    // {
+    //     get => ucwords(trim($this->firstname));
+    //     set(string $firstname){
+    //         $this->firstname = strtolower(trim($firstname));    // trimmed and lowercase
+    //     }
+    // }
 
     public function getLastname() {return $this->lastname;}
     public function setLastname(string $lastname):static {$this->lastname = $lastname; return $this;}
     #[ORM\Column(length: 50)]
-    public string $lastname = ''
-    {
-        get => ucwords(trim($this->lastname));
-        set(string $lastname){
-            $this->lastname = strtolower(trim($lastname));      // trimmed and lowercase
-        }
-    }
+    private string $lastname;
+    // public string $lastname = ''
+    // {
+    //     get => ucwords(trim($this->lastname));
+    //     set(string $lastname){
+    //         $this->lastname = strtolower(trim($lastname));      // trimmed and lowercase
+    //     }
+    // }
 
     public function getActive() {return $this->active;}
     public function setActive(bool $active):static {$this->active = $active; return $this;}
     #[ORM\Column]
-    public bool $active = false{
-        get => $this->active;
-        set(bool $active){
-            $this->active = $active;
-            $now = new DateTime();
-            // if set to inactive, set enddate to now, if set to active set to 4Y from now
-            $this->enddate = $active ? $now->add(new DateInterval("P4Y")) : $now;
-        }
-    }
+    private bool $active;
+    // public bool $active = false{
+    //     get => $this->active;
+    //     set(bool $active){
+    //         $this->active = $active;
+    //         $now = new DateTime();
+    //         // if set to inactive, set enddate to now, if set to active set to 4Y from now
+    //         $this->enddate = $active ? $now->add(new DateInterval("P4Y")) : $now;
+    //     }
+    // }
 
     public function getEnddate() {return $this->enddate;}
     public function setEnddate(?\DateTime $enddate):static {$this->enddate = $enddate; return $this;}
     #[ORM\Column(type: Types::DATE_MUTABLE)]
-    public ?\DateTime $enddate = null{
-        get => $this->enddate;
-        set(?\DateTime $enddate){
-            $this->enddate = $enddate;
-        }
-    }
+    private ?\DateTime $enddate;
+    // public ?\DateTime $enddate = null{
+    //     get => $this->enddate;
+    //     set(?\DateTime $enddate){
+    //         $this->enddate = $enddate;
+    //     }
+    // }
 
     /**
      * @var Collection<int, Order>
@@ -97,20 +101,30 @@ class Costumer
     #[ORM\OneToMany(targetEntity: Order::class, mappedBy: 'Costumer')]
     private Collection $orders;
 
+    // #[ORM\ManyToMany(targetEntity: Tags::class)]
+    // private Collection $tags;
+
     protected File $Barcode;
 
     #[Choice(choices: Costumer::DEPARTMENTS, message: '{{ value }} not a valid department. Possible departments: {{ choices }}')]
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $Department = null;
 
+    /**
+     * @var Collection<int, Tags>
+     */
+    #[ORM\ManyToMany(targetEntity: Tags::class, inversedBy: 'costumers')]
+    private Collection $tags;
+
     public function __tostring()
     {
-        return (string)$this->id;
+        return sprintf('[%s] %s', $this->getDepartment(), $this->getFullName());
     }
 
     public function __construct()
     {
         $this->orders = new ArrayCollection();
+        $this->tags = new ArrayCollection();
         $now = new DateTime();
         $this->enddate = $now->add(new DateInterval("P4Y")); // 4 Years
     }
@@ -137,17 +151,47 @@ class Costumer
         return $this;
     }
 
-    public function removeOrder(Order $order): static
-    {
-        if ($this->orders->removeElement($order)) {
-            // set the owning side to null (unless already changed)
-            if ($order->getCostumer() === $this) {
-                $order->setCostumer(null);
-            }
-        }
+    // public function removeTags(Tags $tag): static
+    // {
+    //     if ($this->orders->removeElement($tags)) {
+    //         // set the owning side to null (unless already changed)
+    //         if ($tags->getCostumer() === $this) {
+    //             $tags->setCostumer(null);
+    //         }
+    //     }
 
-        return $this;
-    }
+    //     return $this;
+    // }
+
+    // /**
+    //  * @return Collection<int, Order>
+    //  */
+    // public function getTags(): Collection
+    // {
+    //     return $this->orders;
+    // }
+
+    // public function addOrder(Order $order): static
+    // {
+    //     if (!$this->orders->contains($order)) {
+    //         $this->orders->add($order);
+    //         $order->setCostumer($this);
+    //     }
+
+    //     return $this;
+    // }
+
+    // public function removeOrder(Order $order): static
+    // {
+    //     if ($this->orders->removeElement($order)) {
+    //         // set the owning side to null (unless already changed)
+    //         if ($order->getCostumer() === $this) {
+    //             $order->setCostumer(null);
+    //         }
+    //     }
+
+    //     return $this;
+    // }
 
     public function getBarcode(): string
     {
@@ -170,6 +214,14 @@ class Costumer
         return $filename;
     }
 
+    // public function getDepartment(): ?string
+    // {
+    //     $ret = array_find_key(static::DEPARTMENTS, 
+    //         fn(?string $value, string $key)=>$this->Department===$value
+    //     );
+    //     return $ret;
+    // }
+
     public function getDepartment(): ?string
     {
         return $this->Department;
@@ -185,6 +237,30 @@ class Costumer
     public function getFullName()
     {
         return $this->firstname. " ". $this->lastname;
+    }
+
+    /**
+     * @return Collection<int, Tags>
+     */
+    public function getTags(): Collection
+    {
+        return $this->tags;
+    }
+
+    public function addTag(Tags $tag): static
+    {
+        if (!$this->tags->contains($tag)) {
+            $this->tags->add($tag);
+        }
+
+        return $this;
+    }
+
+    public function removeTag(Tags $tag): static
+    {
+        $this->tags->removeElement($tag);
+
+        return $this;
     }
 }
 

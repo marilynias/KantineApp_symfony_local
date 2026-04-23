@@ -32,8 +32,8 @@ when@test:
                 memory_cost: 10 # Lowest possible value for argon
 
         # I cant get log-in when testing to work, so disable access_control for now
-        # access_control:
-        #     - { path: ^/.*, role: PUBLIC_ACCESS }
+        access_control:
+            - { path: ^/.*, role: PUBLIC_ACCESS }
 
         # providers:
         #     users_in_memory:

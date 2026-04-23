@@ -15,7 +15,7 @@ use Symfony\Component\DependencyInjection\Attribute\When;
  */
 class CostumerRepository extends ServiceEntityRepository
 {
-    private const MONTHS_INACTIVE_UNTIL_REMOVAL = 6;
+    private const MONTHS_INACTIVE_UNTIL_REMOVAL = 8;
 
     public function __construct(ManagerRegistry $registry)
     {

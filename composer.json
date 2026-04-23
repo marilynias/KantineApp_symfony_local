@@ -108,5 +108,10 @@
         "symfony/maker-bundle": "*",
         "symfony/stopwatch": "*",
         "symfony/web-profiler-bundle": "*"
-    }
+    },
+    "repositories": [{
+        "name": "drupal",
+        "type": "composer",
+        "url": "https://packages.drupal.org/8"
+    }]
 }

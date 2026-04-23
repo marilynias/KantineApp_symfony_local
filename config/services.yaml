@@ -24,10 +24,15 @@ services:
     # please note that last definitions always *replace* previous ones
     Sonata\UserBundle\Model\UserManagerInterface: '@sonata.user.manager.user'
 
-    Kantine\Admin\OrderDataSource:
-        decorates: 'sonata.admin.data_source.orm'
+    # Shared\Admin\ManyToManyDataSource:
+    #     decorates: 'sonata.admin.data_source.orm'
 
     admin.costumer:
         class: Shared\Admin\CostumerAdmin
         tags:
             - { name: sonata.admin, model_class: Shared\Entity\Costumer, controller: ~, manager_type: orm, group: Shared, label: Costumer}
+
+    admin.tags:
+        class: Shared\Admin\TagsAdmin
+        tags:
+            - { name: sonata.admin, model_class: Shared\Entity\Tags, controller: ~, manager_type: orm, group: Shared, label: Tags }

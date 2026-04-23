@@ -189,8 +189,8 @@
         <source>To Date</source>
         <target>Bis</target>
       </trans-unit>
-      <trans-unit id="f9zeTga" resname="No Dept">
-        <source>No Dept</source>
+      <trans-unit id="f9zeTga" resname="dept.none">
+        <source>dept.none</source>
         <target>Kein Bereich</target>
       </trans-unit>
     </body>
