@@ -17,34 +17,14 @@ use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Form\Type\ModelType;
 use Sonata\AdminBundle\Show\ShowMapper;
 use Sonata\DoctrineORMAdminBundle\Filter\ChoiceFilter;
+use Sonata\Form\Type\DatePickerType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Translation\TranslatableMessage;
 
 
-// function getTags(AdminInterface $admin, string $property, $value): void {
-//     // throw new NotImplemented("not implemented");
-//     $datagrid = $admin->getDatagrid();
-//     $query = $datagrid->getQuery();
-//     $query
-//         ->andWhere($query->getRootAlias() . 'id=:barValue')
-//         ->setParameter('barValue', $admin->getRequest()->get('bar'))
-//     ;
-//     $datagrid->setValue($property, null, $value);
-// }
 
 final class CostumerAdmin extends AbstractAdmin
 {
-    private function getTags(AdminInterface $admin, string $property, $value)
-    {
-        throw new NotImplemented("not implemented");
-        $datagrid = $admin->getDatagrid();
-        $query = $datagrid->getQuery();
-        $query
-            ->andWhere($query->getRootAlias() . '.foo=:barValue')
-            ->setParameter('barValue', $admin->getRequest()->get('bar'))
-        ;
-        $datagrid->setValue($property, null, $value);
-    }
 
     protected function configureDatagridFilters(DatagridMapper $filter): void
     {
@@ -102,10 +82,6 @@ final class CostumerAdmin extends AbstractAdmin
             FieldDescriptionInterface::TYPE_CHOICE, 
             [
                 'choices' => Costumer::DEPARTMENTS,
-                // 'key_translation_domain' => true,
-                // 'value_translation_domain' => true,
-                // 'choice_translation_domain' => true, 
-                // 'dataTransformer' => 'ModelsToArrayTransformer',
                 'choice_translation_domain' => 'messages', 
                 'multiple' => true,
                 'editable' => true,
