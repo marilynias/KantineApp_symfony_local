@@ -30,6 +30,7 @@
         "symfony/form": "*",
         "symfony/framework-bundle": "*",
         "symfony/mime": "*",
+        "symfony/monolog-bundle": "^4.0",
         "symfony/polyfill-intl-messageformatter": "*",
         "symfony/property-access": "*",
         "symfony/property-info": "*",

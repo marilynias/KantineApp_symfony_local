@@ -118,7 +118,7 @@ class Costumer
 
     public function __tostring()
     {
-        return sprintf('[%s] %s', $this->getDepartment(), $this->getFullName());
+        return sprintf('[%s] %s', $this->getDepartment()??'None', $this->getFullName()?:'None');
     }
 
     public function __construct()

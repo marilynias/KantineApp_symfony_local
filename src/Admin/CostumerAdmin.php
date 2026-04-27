@@ -13,21 +13,12 @@ use Sonata\AdminBundle\Datagrid\DatagridInterface;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\FieldDescription\FieldDescriptionInterface;
-use Sonata\AdminBundle\Form\ChoiceList\ModelChoiceLoader;
 use Sonata\AdminBundle\Form\FormMapper;
-use Sonata\AdminBundle\Form\Type\ModelAutocompleteType;
-use Sonata\AdminBundle\Form\Type\ModelListType;
 use Sonata\AdminBundle\Form\Type\ModelType;
-use Sonata\AdminBundle\Model\ModelManagerInterface;
 use Sonata\AdminBundle\Show\ShowMapper;
 use Sonata\DoctrineORMAdminBundle\Filter\ChoiceFilter;
-use Sonata\DoctrineORMAdminBundle\Model\ModelManager;
-use Sonata\Form\Type\CollectionType;
-use Sonata\Form\Type\DatePickerType;
-use Symfony\Component\Form\ChoiceList\Loader\CallbackChoiceLoader;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Translation\TranslatableMessage;
-use Symfony\Component\Validator\Constraints\NotNull;
 
 
 // function getTags(AdminInterface $admin, string $property, $value): void {
@@ -87,11 +78,12 @@ final class CostumerAdmin extends AbstractAdmin
         // $q = getTags($this, 'id', 1);
         $test = $this->getModelManager();
         $q = $this->getModelManager()->getEntityManager(Tags::class)->createQueryBuilder('t')
-            ->select('t.name')
+            ->select('t')
             ->from('Shared\Entity\Tags', 't')
             // ->setMaxResults(10)
             ->where("t.id > 0")
-            ->getQuery();
+            ->getQuery()
+            ->getResult();
         // $q->execute();
         
         
@@ -118,26 +110,14 @@ final class CostumerAdmin extends AbstractAdmin
                 'multiple' => true,
                 'editable' => true,
             ])
-            // ->add('tags', FieldDescriptionInterface::TYPE_MANY_TO_MANY, [
-            ->add('tags', FieldDescriptionInterface::TYPE_CHOICE, [
+            ->add('tags', FieldDescriptionInterface::TYPE_MANY_TO_MANY, [
                 'btn_add' => true,
-                // 'label' => 'Tags',
-                // 'class' => Tags::class,
                 'multiple' => true,
-                'editable' => true,
-                // 'display' => 'both',
-                // 'class' => Tags::class,
-                // 'query' => $q
-                'choices' => $q->getResult(),
-                // 'data-url' => '/',
-                // 'identifier'=>false,
-                // 'code' => function(AdminInterface $admin, string $property, $value){
-                //     throw new NotImplemented("not implemented");
-                //     getTags($admin, $property, $value);
-                // },
-            
-                // 'associated_property' => 'name',
-                // ''
+                // 'editable' => true,      // I can not make editablility this work...
+                'field_options'=> [
+                    'multiple' => true,
+                    'editable' => true,
+                ]
             ])
             ->add('enddate', null, [
                 'widget' => 'single_text',

@@ -40,7 +40,7 @@ final class TagsAdmin extends AbstractAdmin
                     'delete' => [],
                 ],
             ])
-            ->add('costumers', 'tags_lst', [
+            ->add('costumers', null, [
                 'multiple' => true,
                 'editable' => true,
             ]);
