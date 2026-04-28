@@ -21,7 +21,7 @@ final class TimeEntryBatchController extends AbstractController
         $admin->checkAccess('list');
 
         $format = datefmt_create('de-DE');
-        $format->setPattern("EEEE dd.M.y");
+        $format->setPattern("EEEE dd.MM.y");
 
         $selectedUsers = $query->execute();
         $data = [];
@@ -30,7 +30,7 @@ final class TimeEntryBatchController extends AbstractController
         // sort entries into [Costumer][Month][entiry]
         foreach ($selectedUsers as $timeEntry) {
             if(!$timeEntry instanceof TimeEntry) continue;
-            $month = $timeEntry->getCheckinTime()->format('MM.yyyy');
+            $month = $timeEntry->getCheckinTime()->format('m.y');
             $data[$timeEntry->getUser()->getFullname()][$month][] = [
                 'Datum'=>   datefmt_format($format, $timeEntry->getCheckinTime()), 
                 'Eintrag' => $timeEntry->getCheckinTime()->format('h:m'), 
@@ -46,13 +46,13 @@ final class TimeEntryBatchController extends AbstractController
         // write into zip archive structured costumer/month.xlsx
         foreach ($data as $costumer => $months) {
             $zip->addEmptyDir($costumer);
-            foreach ($months as $entries) {
+            foreach ($months as $month => $entries) {
                 $source = new ArraySourceIterator($entries);
                 $tmpName = tempnam(sys_get_temp_dir(), 'xlsx_');
                 if(file_exists($tmpName)) unlink($tmpName);             // hacky way to just get a random name, not the new file
                 $writer = new XlsxWriter($tmpName);
                 Handler::create($source, $writer)->export();
-                $zip->addFile($tmpName, $costumer.DIRECTORY_SEPARATOR.$costumer.'_'.date('m.Y').'.xlsx');
+                $zip->addFile($tmpName, $costumer.DIRECTORY_SEPARATOR.$costumer.'_'.$month.'.xlsx');
             }
         }
         if (!$zip->close()) throw new \RuntimeException(_('Cannot close ' . $zipName));
@@ -60,7 +60,7 @@ final class TimeEntryBatchController extends AbstractController
 
         $response = new BinaryFileResponse($zipName);
         $response->headers->set('Content-Type', 'application/zip');
-        $response->setContentDisposition(ResponseHeaderBag::DISPOSITION_ATTACHMENT, 'Teilnehmer_' . date('m.Y') . '.zip');
+        $response->setContentDisposition(ResponseHeaderBag::DISPOSITION_ATTACHMENT, 'Teilnehmer_Zeiteinträge' . '.zip');
         $this->addFlash('sonata_flash_success', 'successfully exported');
         return $response;
     }
