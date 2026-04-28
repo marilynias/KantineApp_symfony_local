@@ -2,8 +2,6 @@
 
 namespace Zeiterfassung\Controller;
 
-use IntlDateFormatter;
-use Shared\Entity\Costumer;
 use Sonata\AdminBundle\Admin\AdminInterface;
 use Sonata\AdminBundle\Datagrid\ProxyQueryInterface;
 use Sonata\Exporter\Handler;
@@ -12,11 +10,7 @@ use Sonata\Exporter\Writer\XlsxWriter;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Symfony\Component\HttpFoundation\RedirectResponse;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\ResponseHeaderBag;
-use Symfony\Component\HttpFoundation\StreamedResponse;
-use Symfony\Component\Routing\Attribute\Route;
-// use Symfony\Polyfill\Intl\Icu\IntlDateFormatter;
 use Zeiterfassung\Entity\TimeEntry;
 use ZipArchive;
 
@@ -28,7 +22,6 @@ final class TimeEntryBatchController extends AbstractController
 
         $format = datefmt_create('de-DE');
         $format->setPattern("EEEE dd.M.y");
-        // $format->setPattern()
 
         $selectedUsers = $query->execute();
         $data = [];
