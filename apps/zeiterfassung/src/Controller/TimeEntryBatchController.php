@@ -38,9 +38,8 @@ final class TimeEntryBatchController extends AbstractController
         }
 
         $zipName = tempnam(sys_get_temp_dir(), 'zip_');
-         if(file_exists($zipName)) unlink($zipName);
         $zip = new ZipArchive();
-        if ($zip->open($zipName, ZipArchive::CREATE) !== true) {
+        if ($zip->open($zipName, ZipArchive::OVERWRITE) !== true) {
             throw new \RuntimeException(_('Cannot open ' . $zipName));
         }
 
