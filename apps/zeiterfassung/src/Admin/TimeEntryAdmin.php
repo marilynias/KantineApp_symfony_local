@@ -81,6 +81,7 @@ final class TimeEntryAdmin extends AbstractAdmin
         }
 
         $actions['export as report'] = [
+            'ask_confirmation' => false,
             'controller' => 'Zeiterfassung\Controller\TimeEntryBatchController::batchGetReportAction',
         ];
 
