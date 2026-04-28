@@ -2,7 +2,7 @@ doctrine:
     orm:
         entity_managers:
             default:
-                auto_mapping: true
+                auto_mapping: false
                 mappings:
                     Shared:
                         is_bundle: false
@@ -34,7 +34,7 @@ when@test:
             driver:              sqlite
 
             profiling_collect_backtrace: '%kernel.debug%'
-            use_savepoints: true
+            # use_savepoints: true
 when@prod:
     doctrine:
         dbal:
@@ -52,11 +52,11 @@ when@prod:
             server_version: '10.6.22-Mariadb'
 
             profiling_collect_backtrace: '%kernel.debug%'
-            use_savepoints: true
+            # use_savepoints: true
         orm:
         
-            auto_generate_proxy_classes: false
-            proxy_dir: '%kernel.build_dir%/doctrine/orm/Proxies'
+            # auto_generate_proxy_classes: false
+            # proxy_dir: '%kernel.build_dir%/doctrine/orm/Proxies'
             query_cache_driver:
                 type: pool
                 pool: doctrine.system_cache_pool
@@ -89,4 +89,4 @@ when@dev:
             server_version: '10.6.22-Mariadb'
 
             profiling_collect_backtrace: '%kernel.debug%'
-            use_savepoints: true
+            # use_savepoints: true

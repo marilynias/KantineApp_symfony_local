@@ -5,635 +5,635 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="sWz_FTl" resname="title_user_registration">
+      <trans-unit id="Ii.Af8b" resname="title_user_registration">
         <source>title_user_registration</source>
         <target>Registrierung</target>
       </trans-unit>
-      <trans-unit id="qzRts_S" resname="title_user_account">
+      <trans-unit id="QMl3.CF" resname="title_user_account">
         <source>title_user_account</source>
         <target>Benutzerprofil</target>
       </trans-unit>
-      <trans-unit id="HAJqUba" resname="title_user_edit_profile">
+      <trans-unit id="_PQqKyA" resname="title_user_edit_profile">
         <source>title_user_edit_profile</source>
         <target>Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="HjmqCBj" resname="title_user_authentication">
+      <trans-unit id="MhgfmOd" resname="title_user_authentication">
         <source>title_user_authentication</source>
         <target>Authentifizierung</target>
       </trans-unit>
-      <trans-unit id="WwdmXL5" resname="sonata_user_submit">
+      <trans-unit id="xcEgJ7." resname="sonata_user_submit">
         <source>sonata_user_submit</source>
         <target>Absenden</target>
       </trans-unit>
-      <trans-unit id="6FRJsyQ" resname="breadcrumb.link_user_list">
+      <trans-unit id="HwOJ9OC" resname="breadcrumb.link_user_list">
         <source>breadcrumb.link_user_list</source>
         <target>Benutzer</target>
       </trans-unit>
-      <trans-unit id="V1Zc9cr" resname="breadcrumb.link_user_create">
+      <trans-unit id="VMNMLfD" resname="breadcrumb.link_user_create">
         <source>breadcrumb.link_user_create</source>
         <target>Anlegen</target>
       </trans-unit>
-      <trans-unit id="9wtIEuP" resname="breadcrumb.link_user_edit">
+      <trans-unit id="8_0veIR" resname="breadcrumb.link_user_edit">
         <source>breadcrumb.link_user_edit</source>
         <target>Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="XM97dfe" resname="breadcrumb.link_user_delete">
+      <trans-unit id="OGMajXj" resname="breadcrumb.link_user_delete">
         <source>breadcrumb.link_user_delete</source>
         <target>Benutzer löschen</target>
       </trans-unit>
-      <trans-unit id="YW5uJ4B" resname="breadcrumb.link_user_show">
+      <trans-unit id="2w8aJOo" resname="breadcrumb.link_user_show">
         <source>breadcrumb.link_user_show</source>
         <target>Benutzer anzeigen</target>
       </trans-unit>
-      <trans-unit id="fftM9nd" resname="users">
+      <trans-unit id="SIYPmL5" resname="users">
         <source>users</source>
         <target>Benutzer</target>
       </trans-unit>
-      <trans-unit id="F0UcJvK" resname="show.group_users">
+      <trans-unit id="qtjW0cY" resname="show.group_users">
         <source>show.group_users</source>
         <target>Benutzer</target>
       </trans-unit>
-      <trans-unit id="AMnqGG7" resname="switch_user_exit">
+      <trans-unit id="vBrOGyW" resname="switch_user_exit">
         <source>switch_user_exit</source>
         <target>Benutzer imitieren beenden</target>
       </trans-unit>
-      <trans-unit id="j9_596D" resname="user_block_profile">
+      <trans-unit id="gnNdky9" resname="user_block_profile">
         <source>user_block_profile</source>
         <target>Profil</target>
       </trans-unit>
-      <trans-unit id="zKvsAiB" resname="switch_user">
+      <trans-unit id="D1fEBnj" resname="switch_user">
         <source>switch_user</source>
         <target>Benutzer imitieren</target>
       </trans-unit>
-      <trans-unit id="NeWyhvb" resname="user_block_logout">
+      <trans-unit id="7claVhl" resname="user_block_logout">
         <source>user_block_logout</source>
         <target>abmelden</target>
       </trans-unit>
-      <trans-unit id="bI_BNN2" resname="form.label_username">
+      <trans-unit id="CdkXdAq" resname="form.label_username">
         <source>form.label_username</source>
         <target>Benutzername</target>
       </trans-unit>
-      <trans-unit id="21vgKwn" resname="form.label_email">
+      <trans-unit id="9GFcdIs" resname="form.label_email">
         <source>form.label_email</source>
         <target>E-Mail-Adresse</target>
       </trans-unit>
-      <trans-unit id="FPR0EuU" resname="form.label_plain_password">
+      <trans-unit id="7K7EZKt" resname="form.label_plain_password">
         <source>form.label_plain_password</source>
         <target>Klartextpasswort</target>
       </trans-unit>
-      <trans-unit id="YGQLIvY" resname="form.label_roles">
+      <trans-unit id="gB82d7V" resname="form.label_roles">
         <source>form.label_roles</source>
         <target>Rollen</target>
       </trans-unit>
-      <trans-unit id="PBgaRAR" resname="form.label_locked">
+      <trans-unit id="hlAPvXN" resname="form.label_locked">
         <source>form.label_locked</source>
         <target>Gesperrt</target>
       </trans-unit>
-      <trans-unit id="VyGdQKG" resname="form.label_expired">
+      <trans-unit id="f7bYIMw" resname="form.label_expired">
         <source>form.label_expired</source>
         <target>Abgelaufen</target>
       </trans-unit>
-      <trans-unit id="TXGji8g" resname="form.label_enabled">
+      <trans-unit id="Spa3l4z" resname="form.label_enabled">
         <source>form.label_enabled</source>
         <target>Aktiviert</target>
       </trans-unit>
-      <trans-unit id="F2IHyTn" resname="form.label_credentials_expired">
+      <trans-unit id="9KjSXs4" resname="form.label_credentials_expired">
         <source>form.label_credentials_expired</source>
         <target>Rechte abgelaufen</target>
       </trans-unit>
-      <trans-unit id="hfXGnZG" resname="form.label_country">
+      <trans-unit id="Awq9FM4" resname="form.label_country">
         <source>form.label_country</source>
         <target>Land</target>
       </trans-unit>
-      <trans-unit id="5CQqrzZ" resname="form.label_website">
+      <trans-unit id="dqctC0v" resname="form.label_website">
         <source>form.label_website</source>
         <target>Webseite</target>
       </trans-unit>
-      <trans-unit id="cdAlIPI" resname="form.label_biography">
+      <trans-unit id="Q_o9wtk" resname="form.label_biography">
         <source>form.label_biography</source>
         <target>Biografie</target>
       </trans-unit>
-      <trans-unit id="oL.nnmT" resname="form.label_gender">
+      <trans-unit id="NEP35Xt" resname="form.label_gender">
         <source>form.label_gender</source>
         <target>Geschlecht</target>
       </trans-unit>
-      <trans-unit id="IUGfOCd" resname="form.label_locale">
+      <trans-unit id="VNuW4RR" resname="form.label_locale">
         <source>form.label_locale</source>
         <target>Sprache</target>
       </trans-unit>
-      <trans-unit id="alNYRYb" resname="form.label_timezone">
+      <trans-unit id="yaT_yVP" resname="form.label_timezone">
         <source>form.label_timezone</source>
         <target>Zeitzone</target>
       </trans-unit>
-      <trans-unit id="U8qIZP9" resname="form.label_phone">
+      <trans-unit id="LatuaeE" resname="form.label_phone">
         <source>form.label_phone</source>
         <target>Telefon</target>
       </trans-unit>
-      <trans-unit id="rgCiqez" resname="form.label_facebook_uid">
+      <trans-unit id="DUyGnDc" resname="form.label_facebook_uid">
         <source>form.label_facebook_uid</source>
         <target>Facebook Kennung</target>
       </trans-unit>
-      <trans-unit id="V3IyCjX" resname="form.label_facebook_name">
+      <trans-unit id="o7K_T3o" resname="form.label_facebook_name">
         <source>form.label_facebook_name</source>
         <target>Facebook Name</target>
       </trans-unit>
-      <trans-unit id=".32Vv5y" resname="form.label_twitter_uid">
+      <trans-unit id="wY0QQhW" resname="form.label_twitter_uid">
         <source>form.label_twitter_uid</source>
         <target>Twitter Kennung</target>
       </trans-unit>
-      <trans-unit id="6tfohp3" resname="form.label_twitter_name">
+      <trans-unit id="HIMk02P" resname="form.label_twitter_name">
         <source>form.label_twitter_name</source>
         <target>Twitter Name</target>
       </trans-unit>
-      <trans-unit id="iiIJ8kM" resname="form.label_gplus_uid">
+      <trans-unit id="Q5a_nnu" resname="form.label_gplus_uid">
         <source>form.label_gplus_uid</source>
         <target>Google+ Kennung</target>
       </trans-unit>
-      <trans-unit id="nFcHNaa" resname="form.label_gplus_name">
+      <trans-unit id="7L6q5jP" resname="form.label_gplus_name">
         <source>form.label_gplus_name</source>
         <target>Google+ Name</target>
       </trans-unit>
-      <trans-unit id="6RpdlMx" resname="form.label_token">
+      <trans-unit id="sKy16q9" resname="form.label_token">
         <source>form.label_token</source>
         <target>Kürzel</target>
       </trans-unit>
-      <trans-unit id="7dzdTmR" resname="form.label_two_step_verification_code">
+      <trans-unit id="4TcbFGv" resname="form.label_two_step_verification_code">
         <source>form.label_two_step_verification_code</source>
         <target>Zwei-Schritte Bestätigung</target>
       </trans-unit>
-      <trans-unit id="amc0VL9" resname="form.label_name">
+      <trans-unit id="O0AVoHq" resname="form.label_name">
         <source>form.label_name</source>
         <target>Name</target>
       </trans-unit>
-      <trans-unit id="0eR3EYn" resname="form.label_date_of_birth">
+      <trans-unit id="YYTKhwZ" resname="form.label_date_of_birth">
         <source>form.label_date_of_birth</source>
         <target>Geburtsdatum</target>
       </trans-unit>
-      <trans-unit id="DL0uFD2" resname="form.label_firstname">
+      <trans-unit id="vOKmWhb" resname="form.label_firstname">
         <source>form.label_firstname</source>
         <target>Vorname</target>
       </trans-unit>
-      <trans-unit id="GQOULi3" resname="form.label_lastname">
+      <trans-unit id="Vbaj3uE" resname="form.label_lastname">
         <source>form.label_lastname</source>
         <target>Nachname</target>
       </trans-unit>
-      <trans-unit id="SHQ3r29" resname="field.label_roles_editable">
+      <trans-unit id="pcCshCv" resname="field.label_roles_editable">
         <source>field.label_roles_editable</source>
         <target>Rollen</target>
       </trans-unit>
-      <trans-unit id="8ukk8e3" resname="filter.label_username">
+      <trans-unit id="Y.Xs5bl" resname="filter.label_username">
         <source>filter.label_username</source>
         <target>Benutzername</target>
       </trans-unit>
-      <trans-unit id="UNwKbqc" resname="filter.label_name">
+      <trans-unit id="XxBxUQR" resname="filter.label_name">
         <source>filter.label_name</source>
         <target>Name</target>
       </trans-unit>
-      <trans-unit id="mQl5G07" resname="filter.label_email">
+      <trans-unit id="3Iw1s87" resname="filter.label_email">
         <source>filter.label_email</source>
         <target>E-Mail-Adresse</target>
       </trans-unit>
-      <trans-unit id="CVCBJdJ" resname="filter.label_plain_password">
+      <trans-unit id="8zz_8Zw" resname="filter.label_plain_password">
         <source>filter.label_plain_password</source>
         <target>Klartextpasswort</target>
       </trans-unit>
-      <trans-unit id="iblikmI" resname="filter.label_roles">
+      <trans-unit id="oI0YkZx" resname="filter.label_roles">
         <source>filter.label_roles</source>
         <target>Rollen</target>
       </trans-unit>
-      <trans-unit id="pgNkBEs" resname="filter.label_locked">
+      <trans-unit id="A9dJEIx" resname="filter.label_locked">
         <source>filter.label_locked</source>
         <target>Gesperrt</target>
       </trans-unit>
-      <trans-unit id="ZtPEucJ" resname="filter.label_id">
+      <trans-unit id="zwjeFr4" resname="filter.label_id">
         <source>filter.label_id</source>
         <target>ID</target>
       </trans-unit>
-      <trans-unit id="2socxWK" resname="filter.label_expired">
+      <trans-unit id="7j.2dS9" resname="filter.label_expired">
         <source>filter.label_expired</source>
         <target>Abgelaufen</target>
       </trans-unit>
-      <trans-unit id="sCHvQ7F" resname="filter.label_enabled">
+      <trans-unit id="CWMR9cL" resname="filter.label_enabled">
         <source>filter.label_enabled</source>
         <target>Aktiviert</target>
       </trans-unit>
-      <trans-unit id="2ZPDXD2" resname="filter.label_credentials_expired">
+      <trans-unit id="X80QYrW" resname="filter.label_credentials_expired">
         <source>filter.label_credentials_expired</source>
         <target>Rechte abgelaufen</target>
       </trans-unit>
-      <trans-unit id="7njt0jO" resname="filter.label_country">
+      <trans-unit id="pg4IFza" resname="filter.label_country">
         <source>filter.label_country</source>
         <target>Land</target>
       </trans-unit>
-      <trans-unit id="QBpo3ta" resname="filter.label_website">
+      <trans-unit id="x_5qY5E" resname="filter.label_website">
         <source>filter.label_website</source>
         <target>Webseite</target>
       </trans-unit>
-      <trans-unit id="h.o6vyE" resname="filter.label_biography">
+      <trans-unit id="kdtSCLZ" resname="filter.label_biography">
         <source>filter.label_biography</source>
         <target>Biografie</target>
       </trans-unit>
-      <trans-unit id="TkPc4Wh" resname="filter.label_gender">
+      <trans-unit id="HG5vV3V" resname="filter.label_gender">
         <source>filter.label_gender</source>
         <target>Geschlecht</target>
       </trans-unit>
-      <trans-unit id="eyHqyR1" resname="filter.label_locale">
+      <trans-unit id="g0.R6CL" resname="filter.label_locale">
         <source>filter.label_locale</source>
         <target>Sprache</target>
       </trans-unit>
-      <trans-unit id="1SsKCZn" resname="filter.label_timezone">
+      <trans-unit id="emmzrYE" resname="filter.label_timezone">
         <source>filter.label_timezone</source>
         <target>Zeitzone</target>
       </trans-unit>
-      <trans-unit id="1vPu42T" resname="filter.label_phone">
+      <trans-unit id="cNtBSXF" resname="filter.label_phone">
         <source>filter.label_phone</source>
         <target>Telefon</target>
       </trans-unit>
-      <trans-unit id="w_kn4a3" resname="filter.label_facebook_uid">
+      <trans-unit id="myL6_SB" resname="filter.label_facebook_uid">
         <source>filter.label_facebook_uid</source>
         <target>Facebook Kennung</target>
       </trans-unit>
-      <trans-unit id="_4FZT2q" resname="filter.label_facebook_name">
+      <trans-unit id="EZEF0Dv" resname="filter.label_facebook_name">
         <source>filter.label_facebook_name</source>
         <target>Facebook Name</target>
       </trans-unit>
-      <trans-unit id="E6KV6MF" resname="filter.label_twitter_uid">
+      <trans-unit id="xnDKsND" resname="filter.label_twitter_uid">
         <source>filter.label_twitter_uid</source>
         <target>Twitter Kennung</target>
       </trans-unit>
-      <trans-unit id="GqQ2Srd" resname="filter.label_twitter_name">
+      <trans-unit id="iFhCmLj" resname="filter.label_twitter_name">
         <source>filter.label_twitter_name</source>
         <target>Twitter Name</target>
       </trans-unit>
-      <trans-unit id="3u719he" resname="filter.label_gplus_uid">
+      <trans-unit id="k9M.HT1" resname="filter.label_gplus_uid">
         <source>filter.label_gplus_uid</source>
         <target>Google+ Kennung</target>
       </trans-unit>
-      <trans-unit id="A8JYG2i" resname="filter.label_gplus_name">
+      <trans-unit id="gOtKtgA" resname="filter.label_gplus_name">
         <source>filter.label_gplus_name</source>
         <target>Google+ Name</target>
       </trans-unit>
-      <trans-unit id="9uSx9hT" resname="filter.label_token">
+      <trans-unit id="YmbQBAR" resname="filter.label_token">
         <source>filter.label_token</source>
         <target>Kürzel</target>
       </trans-unit>
-      <trans-unit id="Cg80noI" resname="filter.label_two_step_verification_code">
+      <trans-unit id="Wjjqlc6" resname="filter.label_two_step_verification_code">
         <source>filter.label_two_step_verification_code</source>
         <target>Zwei-Schritte Bestätigung</target>
       </trans-unit>
-      <trans-unit id="9KAAUVi" resname="filter.label_date_of_birth">
+      <trans-unit id="zLxt60Q" resname="filter.label_date_of_birth">
         <source>filter.label_date_of_birth</source>
         <target>Geburtsdatum</target>
       </trans-unit>
-      <trans-unit id="YTbbh.X" resname="filter.label_firstname">
+      <trans-unit id="OauyD44" resname="filter.label_firstname">
         <source>filter.label_firstname</source>
         <target>Vorname</target>
       </trans-unit>
-      <trans-unit id="XaTxYCr" resname="filter.label_lastname">
+      <trans-unit id="NGDJT4e" resname="filter.label_lastname">
         <source>filter.label_lastname</source>
         <target>Nachname</target>
       </trans-unit>
-      <trans-unit id="zb1o1dc" resname="list.label_username">
+      <trans-unit id="vSSR8N6" resname="list.label_username">
         <source>list.label_username</source>
         <target>Benutzername</target>
       </trans-unit>
-      <trans-unit id="OCTPMkh" resname="list.label_name">
+      <trans-unit id="yl7U6xt" resname="list.label_name">
         <source>list.label_name</source>
         <target>Name</target>
       </trans-unit>
-      <trans-unit id="ktis8lA" resname="list.label_email">
+      <trans-unit id="dOK_cCk" resname="list.label_email">
         <source>list.label_email</source>
         <target>E-Mail-Adresse</target>
       </trans-unit>
-      <trans-unit id="ahAmVBJ" resname="list.label_locked">
+      <trans-unit id="i4_Km9C" resname="list.label_locked">
         <source>list.label_locked</source>
         <target>Gesperrt</target>
       </trans-unit>
-      <trans-unit id="UDfXwla" resname="list.label_enabled">
+      <trans-unit id="rPL2D1A" resname="list.label_enabled">
         <source>list.label_enabled</source>
         <target>Aktiviert</target>
       </trans-unit>
-      <trans-unit id="vINylMw" resname="list.label_created_at">
+      <trans-unit id="q1_cbx8" resname="list.label_created_at">
         <source>list.label_created_at</source>
         <target>Erstellt am</target>
       </trans-unit>
-      <trans-unit id="SkseSz0" resname="list.label_impersonating">
+      <trans-unit id="iA58Qxx" resname="list.label_impersonating">
         <source>list.label_impersonating</source>
         <target>Benutzer imitieren</target>
       </trans-unit>
-      <trans-unit id="4XRjYWt" resname="form.group_roles">
+      <trans-unit id="LwPOBR7" resname="form.group_roles">
         <source>form.group_roles</source>
         <target>Rollen</target>
       </trans-unit>
-      <trans-unit id="aW8mxI4" resname="label_two_step_code">
+      <trans-unit id="MdWCvJu" resname="label_two_step_code">
         <source>label_two_step_code</source>
         <target>Zwei-Schritte Code</target>
       </trans-unit>
-      <trans-unit id="KNWIjSL" resname="message_two_step_code_help">
+      <trans-unit id="SeXVDro" resname="message_two_step_code_help">
         <source>message_two_step_code_help</source>
         <target>Zwei-Schritte Code Hilfe</target>
       </trans-unit>
-      <trans-unit id="EHcG7c." resname="label_two_step_code_error">
+      <trans-unit id="gGT0lUW" resname="label_two_step_code_error">
         <source>label_two_step_code_error</source>
         <target>Zwei-Schritte Code Fehler</target>
       </trans-unit>
-      <trans-unit id=".OeTOig" resname="sonata_user">
+      <trans-unit id="dmmDR2Z" resname="sonata_user">
         <source>sonata_user</source>
         <target>Benutzer</target>
       </trans-unit>
-      <trans-unit id="EI5qhyE" resname="label_gender">
+      <trans-unit id="QiCc6uJ" resname="label_gender">
         <source>label_gender</source>
         <target>Geschlecht</target>
       </trans-unit>
-      <trans-unit id="oMrz80r" resname="show.label_username">
+      <trans-unit id="4N24mzz" resname="show.label_username">
         <source>show.label_username</source>
         <target>Benutzername</target>
       </trans-unit>
-      <trans-unit id="zTI0Gq3" resname="show.label_email">
+      <trans-unit id="pWprW2j" resname="show.label_email">
         <source>show.label_email</source>
         <target>E-Mail Adresse</target>
       </trans-unit>
-      <trans-unit id="sIReX2s" resname="show.label_date_of_birth">
+      <trans-unit id="q9bVi.e" resname="show.label_date_of_birth">
         <source>show.label_date_of_birth</source>
         <target>Gebutsdatum</target>
       </trans-unit>
-      <trans-unit id="jYL0rx1" resname="show.label_firstname">
+      <trans-unit id="metZqE1" resname="show.label_firstname">
         <source>show.label_firstname</source>
         <target>Vorname</target>
       </trans-unit>
-      <trans-unit id="5nUpayU" resname="show.label_lastname">
+      <trans-unit id="HjYMk5S" resname="show.label_lastname">
         <source>show.label_lastname</source>
         <target>Nachname</target>
       </trans-unit>
-      <trans-unit id="_oj.IJm" resname="show.label_website">
+      <trans-unit id="Y7HOsZ0" resname="show.label_website">
         <source>show.label_website</source>
         <target>Webseite</target>
       </trans-unit>
-      <trans-unit id="CKE_ZdZ" resname="show.label_biography">
+      <trans-unit id="v5t7xk7" resname="show.label_biography">
         <source>show.label_biography</source>
         <target>Biografie</target>
       </trans-unit>
-      <trans-unit id="8h5yhcV" resname="show.label_gender">
+      <trans-unit id=".uQiotm" resname="show.label_gender">
         <source>show.label_gender</source>
         <target>Geschlecht</target>
       </trans-unit>
-      <trans-unit id="iiq2xqF" resname="show.label_locale">
+      <trans-unit id="FJSEcxs" resname="show.label_locale">
         <source>show.label_locale</source>
         <target>Sprache</target>
       </trans-unit>
-      <trans-unit id="rY_OD89" resname="show.label_timezone">
+      <trans-unit id="dLLSYs." resname="show.label_timezone">
         <source>show.label_timezone</source>
         <target>Zeitzone</target>
       </trans-unit>
-      <trans-unit id="pqHzKBp" resname="show.label_phone">
+      <trans-unit id="dGZhaYP" resname="show.label_phone">
         <source>show.label_phone</source>
         <target>Telefon</target>
       </trans-unit>
-      <trans-unit id="VCV4_er" resname="show.label_facebook_uid">
+      <trans-unit id="q2UeP9B" resname="show.label_facebook_uid">
         <source>show.label_facebook_uid</source>
         <target>Facebook-Kennung</target>
       </trans-unit>
-      <trans-unit id="gtpSQrk" resname="show.label_facebook_name">
+      <trans-unit id="DaknQjl" resname="show.label_facebook_name">
         <source>show.label_facebook_name</source>
         <target>Facebook-Name</target>
       </trans-unit>
-      <trans-unit id="Viy0gwj" resname="show.label_twitter_uid">
+      <trans-unit id="y1WkBEO" resname="show.label_twitter_uid">
         <source>show.label_twitter_uid</source>
         <target>Twitter-Kennung</target>
       </trans-unit>
-      <trans-unit id="hPEC6Jr" resname="show.label_twitter_name">
+      <trans-unit id="nPVjHRG" resname="show.label_twitter_name">
         <source>show.label_twitter_name</source>
         <target>Twitter-Name</target>
       </trans-unit>
-      <trans-unit id="PElp7o0" resname="show.label_gplus_uid">
+      <trans-unit id="zrqiePY" resname="show.label_gplus_uid">
         <source>show.label_gplus_uid</source>
         <target>Kennung bei Google+</target>
       </trans-unit>
-      <trans-unit id="vGHrcmm" resname="show.label_gplus_name">
+      <trans-unit id="VR.spMs" resname="show.label_gplus_name">
         <source>show.label_gplus_name</source>
         <target>Name bei Google+</target>
       </trans-unit>
-      <trans-unit id="bMqwLVg" resname="show.label_token">
+      <trans-unit id="sfu8aOR" resname="show.label_token">
         <source>show.label_token</source>
         <target>Kürzel</target>
       </trans-unit>
-      <trans-unit id="A7i9rC7" resname="show.label_two_step_verification_code">
+      <trans-unit id="5evr6dp" resname="show.label_two_step_verification_code">
         <source>show.label_two_step_verification_code</source>
         <target>Zwei-Schritte-Bestätigung</target>
       </trans-unit>
-      <trans-unit id="OkRDxfM" resname="gender_unknown">
+      <trans-unit id="H3rFedY" resname="gender_unknown">
         <source>gender_unknown</source>
         <target>Keine Angabe</target>
       </trans-unit>
-      <trans-unit id="PSltQqH" resname="gender_female">
+      <trans-unit id="vv9ZFSu" resname="gender_female">
         <source>gender_female</source>
         <target>Weiblich</target>
       </trans-unit>
-      <trans-unit id="PWolbF6" resname="gender_male">
+      <trans-unit id="2nlOBeO" resname="gender_male">
         <source>gender_male</source>
         <target>Männlich</target>
       </trans-unit>
-      <trans-unit id="QU7k2lV" resname="form.label_users">
+      <trans-unit id="aD1f.zr" resname="form.label_users">
         <source>form.label_users</source>
         <target>Benutzer</target>
       </trans-unit>
-      <trans-unit id="ZjLWYn6" resname="form.label_mapped_users">
+      <trans-unit id="3JoneiZ" resname="form.label_mapped_users">
         <source>form.label_mapped_users</source>
         <target>Zugewiesene Benutzer</target>
       </trans-unit>
-      <trans-unit id="yRDUdNz" resname="General">
+      <trans-unit id="gEcArhl" resname="General">
         <source>General</source>
         <target>Allgemein</target>
       </trans-unit>
-      <trans-unit id="1pajW90" resname="Profile">
+      <trans-unit id="5Y34z39" resname="Profile">
         <source>Profile</source>
         <target>Profil</target>
       </trans-unit>
-      <trans-unit id="tRLZfny" resname="User">
+      <trans-unit id="TkiKoB6" resname="User">
         <source>User</source>
         <target>Benutzer</target>
       </trans-unit>
-      <trans-unit id="kg5BPH1" resname="Status">
+      <trans-unit id="6xCSWiZ" resname="Status">
         <source>Status</source>
         <target>Status</target>
       </trans-unit>
-      <trans-unit id="8bdQWvp" resname="Social">
+      <trans-unit id=".KmYrxx" resname="Social">
         <source>Social</source>
         <target>Soziale Kanäle</target>
       </trans-unit>
-      <trans-unit id="wlM3BVR" resname="Roles">
+      <trans-unit id="aq2eM8Q" resname="Roles">
         <source>Roles</source>
         <target>Rollen</target>
       </trans-unit>
-      <trans-unit id="8NZqecE" resname="Keys">
+      <trans-unit id="uAzOoek" resname="Keys">
         <source>Keys</source>
         <target>Schlüssel</target>
       </trans-unit>
-      <trans-unit id="j2_0639" resname="Security">
+      <trans-unit id="8dn7uBl" resname="Security">
         <source>Security</source>
         <target>Sicherheit</target>
       </trans-unit>
-      <trans-unit id="oEYw74v" resname="Gender">
+      <trans-unit id="_QVl8W." resname="Gender">
         <source>Gender</source>
         <target>Geschlecht</target>
       </trans-unit>
-      <trans-unit id="7QoXuPK" resname="sonata_profile_title">
+      <trans-unit id="gIrLp6S" resname="sonata_profile_title">
         <source>sonata_profile_title</source>
         <target>Profil</target>
       </trans-unit>
-      <trans-unit id="oV2KFRz" resname="link_show_profile">
+      <trans-unit id="EsbQTTn" resname="link_show_profile">
         <source>link_show_profile</source>
         <target>Profil</target>
       </trans-unit>
-      <trans-unit id="IWzU6y7" resname="link_edit_profile">
+      <trans-unit id="mpTnwUN" resname="link_edit_profile">
         <source>link_edit_profile</source>
         <target>Profil bearbeiten</target>
       </trans-unit>
-      <trans-unit id="dvtAWP9" resname="title_user_edit_authentication">
+      <trans-unit id="8i1OJWz" resname="title_user_edit_authentication">
         <source>title_user_edit_authentication</source>
         <target>Anmeldedaten bearbeiten</target>
       </trans-unit>
-      <trans-unit id="vwku279" resname="link_edit_authentication">
+      <trans-unit id="DzuljvW" resname="link_edit_authentication">
         <source>link_edit_authentication</source>
         <target>Anmeldedaten bearbeiten</target>
       </trans-unit>
-      <trans-unit id="IsMM6JP" resname="label_profile_gender">
+      <trans-unit id="ld_C5hE" resname="label_profile_gender">
         <source>label_profile_gender</source>
         <target>Geschlecht</target>
       </trans-unit>
-      <trans-unit id="h6skSYM" resname="label_profile_firstname">
+      <trans-unit id="ZA5dnO6" resname="label_profile_firstname">
         <source>label_profile_firstname</source>
         <target>Vorname</target>
       </trans-unit>
-      <trans-unit id="ZFBgBdZ" resname="label_profile_lastname">
+      <trans-unit id="pYt3GkI" resname="label_profile_lastname">
         <source>label_profile_lastname</source>
         <target>Nachname</target>
       </trans-unit>
-      <trans-unit id="iWbnYm3" resname="label_profile_website">
+      <trans-unit id="38LhSfY" resname="label_profile_website">
         <source>label_profile_website</source>
         <target>Website</target>
       </trans-unit>
-      <trans-unit id="HWyvlWu" resname="label_profile_dob">
+      <trans-unit id="1tDe0cT" resname="label_profile_dob">
         <source>label_profile_dob</source>
         <target>Geburtsdatum</target>
       </trans-unit>
-      <trans-unit id="E.ksdEt" resname="label_profile_biography">
+      <trans-unit id="zsGvugu" resname="label_profile_biography">
         <source>label_profile_biography</source>
         <target>Biographie</target>
       </trans-unit>
-      <trans-unit id="pOJxloZ" resname="label_profile_locale">
+      <trans-unit id="STfA16z" resname="label_profile_locale">
         <source>label_profile_locale</source>
         <target>Sprache</target>
       </trans-unit>
-      <trans-unit id="Lm7pMBT" resname="label_profile_timezone">
+      <trans-unit id="6KWig.v" resname="label_profile_timezone">
         <source>label_profile_timezone</source>
         <target>Zeitzone</target>
       </trans-unit>
-      <trans-unit id="FwFo.i3" resname="label_profile_phone">
+      <trans-unit id="jiL6deE" resname="label_profile_phone">
         <source>label_profile_phone</source>
         <target>Telefon</target>
       </trans-unit>
-      <trans-unit id="C2lNaG." resname="profile.flash.updated">
+      <trans-unit id="dQoyNiT" resname="profile.flash.updated">
         <source>profile.flash.updated</source>
         <target>Profil gespeichert</target>
       </trans-unit>
-      <trans-unit id="S.c.n5A" resname="sonata_change_password_link">
+      <trans-unit id="RJRz3tj" resname="sonata_change_password_link">
         <source>sonata_change_password_link</source>
         <target>Passwort ändern</target>
       </trans-unit>
-      <trans-unit id="RKEk_.g" resname="link_register">
+      <trans-unit id="1ZxZ63_" resname="link_register">
         <source>link_register</source>
         <target>Registrieren</target>
       </trans-unit>
-      <trans-unit id="fQZLuH." resname="link_login">
+      <trans-unit id="4Sk96tU" resname="link_login">
         <source>link_login</source>
         <target>Login</target>
       </trans-unit>
-      <trans-unit id="Q6Oyw14" resname="link_logout">
+      <trans-unit id="yM6UDqD" resname="link_logout">
         <source>link_logout</source>
         <target>Logout</target>
       </trans-unit>
-      <trans-unit id="by9ThPc" resname="registration.flash.user_created">
+      <trans-unit id="8.u1jz8" resname="registration.flash.user_created">
         <source>registration.flash.user_created</source>
         <target>Benutzer angelegt</target>
       </trans-unit>
-      <trans-unit id="mgbvh8h" resname="forgotten_password">
+      <trans-unit id="x2ix84M" resname="forgotten_password">
         <source>forgotten_password</source>
         <target>Passwort vergessen?</target>
       </trans-unit>
-      <trans-unit id="qDzVRrd" resname="sonata_user_profile_breadcrumb_index">
+      <trans-unit id="ACEFNEC" resname="sonata_user_profile_breadcrumb_index">
         <source>sonata_user_profile_breadcrumb_index</source>
         <target>Profil</target>
       </trans-unit>
-      <trans-unit id="IwnCd.V" resname="sonata_user_profile_breadcrumb_edit">
+      <trans-unit id="9ZJBrpF" resname="sonata_user_profile_breadcrumb_edit">
         <source>sonata_user_profile_breadcrumb_edit</source>
         <target>bearbeiten</target>
       </trans-unit>
-      <trans-unit id="Z.k3_dh" resname="sonata_user_already_authenticated">
+      <trans-unit id="IRXNDN6" resname="sonata_user_already_authenticated">
         <source>sonata_user_already_authenticated</source>
         <target>Sie sind schon angemeldet.</target>
       </trans-unit>
-      <trans-unit id="cMU.0rQ" resname="security.login.username">
+      <trans-unit id="QeF6CpZ" resname="security.login.username">
         <source>security.login.username</source>
         <target>Benutzername</target>
       </trans-unit>
-      <trans-unit id="N_kLMwm" resname="security.login.password">
+      <trans-unit id="TT3C_o8" resname="security.login.password">
         <source>security.login.password</source>
         <target>Passwort</target>
       </trans-unit>
-      <trans-unit id="B0VCgO_" resname="form.username">
+      <trans-unit id="2_y0ttv" resname="form.username">
         <source>form.username</source>
         <target>Benutzername</target>
       </trans-unit>
-      <trans-unit id="3IGOm9D" resname="form.email">
+      <trans-unit id="vXLetA0" resname="form.email">
         <source>form.email</source>
         <target>E-Mail Adresse</target>
       </trans-unit>
-      <trans-unit id="yjqmSBK" resname="form.password">
+      <trans-unit id="r2fjRrB" resname="form.password">
         <source>form.password</source>
         <target>Passwort</target>
       </trans-unit>
-      <trans-unit id="Y4Q7qvl" resname="form.password_confirmation">
+      <trans-unit id="lVkf9As" resname="form.password_confirmation">
         <source>form.password_confirmation</source>
         <target>Passwort bestätigen</target>
       </trans-unit>
-      <trans-unit id="nA_0f70" resname="title_user_edit_password">
+      <trans-unit id="C7bYlBW" resname="title_user_edit_password">
         <source>title_user_edit_password</source>
         <target>Passwort ändern</target>
       </trans-unit>
-      <trans-unit id="ZdeFt5E" resname="title_user_resetting">
+      <trans-unit id="KQ1bGaz" resname="title_user_resetting">
         <source>title_user_resetting</source>
         <target>Password vergessen</target>
       </trans-unit>
-      <trans-unit id="tpA_4Z6" resname="title_user_resetting_reset">
+      <trans-unit id="bheFuxs" resname="title_user_resetting_reset">
         <source>title_user_resetting_reset</source>
         <target>Password zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="G9u6iPq" resname="qr_code_secret">
+      <trans-unit id="8HTwQhi" resname="qr_code_secret">
         <source>qr_code_secret</source>
         <target>QR-Code Secret</target>
       </trans-unit>
-      <trans-unit id="nmyKhV6" resname="qr_go_next">
+      <trans-unit id="9u5Vplr" resname="qr_go_next">
         <source>qr_go_next</source>
         <target>Ist gescannt. Weiter gehts.</target>
       </trans-unit>
-      <trans-unit id="8DSptbg" resname="security.login.remember_me">
+      <trans-unit id="9h8zM93" resname="security.login.remember_me">
         <source>security.login.remember_me</source>
         <target>An mich erinnern</target>
       </trans-unit>
-      <trans-unit id="tuAV77Z" resname="security.login.submit">
+      <trans-unit id="8PsyqHR" resname="security.login.submit">
         <source>security.login.submit</source>
         <target>Anmelden</target>
       </trans-unit>
-      <trans-unit id="f5J.GZt" resname="resetting.request.username">
+      <trans-unit id="BQXq2_N" resname="resetting.request.username">
         <source>resetting.request.username</source>
         <target>Benutzername oder E-Mail-Adresse</target>
       </trans-unit>
-      <trans-unit id="55aST1i" resname="resetting.request.submit">
+      <trans-unit id="K8dOd_j" resname="resetting.request.submit">
         <source>resetting.request.submit</source>
         <target>Passwort zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="_cY.wHP" resname="resetting.check_email">
+      <trans-unit id="eMz0dL_" resname="resetting.check_email">
         <source>resetting.check_email</source>
         <target>
           Eine E-Mail wurde verschickt. Sie beinhaltet einen Link zum Zurücksetzen des Passwortes.
@@ -642,11 +642,11 @@
           Eventuell wurde diese E-Mail als Spam markiert, wenn sie nicht angekommen ist.
         </target>
       </trans-unit>
-      <trans-unit id="Redv4tu" resname="resetting.email.subject">
+      <trans-unit id="wi.Rt62" resname="resetting.email.subject">
         <source>resetting.email.subject</source>
         <target>Passwort zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="Lm8o8Qg" resname="resetting.email.message">
+      <trans-unit id="BHvOzph" resname="resetting.email.message">
         <source>resetting.email.message</source>
         <target>
           Hallo %username%!
@@ -657,43 +657,43 @@
           das Team.
         </target>
       </trans-unit>
-      <trans-unit id="KsNOzZz" resname="resetting.reset.submit">
+      <trans-unit id="NB0MWb_" resname="resetting.reset.submit">
         <source>resetting.reset.submit</source>
         <target>Passwort ändern</target>
       </trans-unit>
-      <trans-unit id="TUD.2.O" resname="resetting.flash.success">
+      <trans-unit id="ndEgbhy" resname="resetting.flash.success">
         <source>resetting.flash.success</source>
         <target>Das Passwort wurde erfolgreich zurückgesetzt.</target>
       </trans-unit>
-      <trans-unit id="JTbuLK0" resname="form.new_password">
+      <trans-unit id="CLWOXQ7" resname="form.new_password">
         <source>form.new_password</source>
         <target>Neues Passwort</target>
       </trans-unit>
-      <trans-unit id="hdTL88S" resname="form.new_password_confirmation">
+      <trans-unit id="rghmD83" resname="form.new_password_confirmation">
         <source>form.new_password_confirmation</source>
         <target>Neues Passwort bestätigen</target>
       </trans-unit>
-      <trans-unit id="AYBFwgO" resname="show.group_default">
+      <trans-unit id="hOOFBNu" resname="show.group_default">
         <source>show.group_default</source>
         <target>Gruppe</target>
       </trans-unit>
-      <trans-unit id="oWTNLVb" resname="list.label__actions">
+      <trans-unit id="EqHtllS" resname="list.label__actions">
         <source>list.label__actions</source>
         <target>Aktionen</target>
       </trans-unit>
-      <trans-unit id="VbXLdxp" resname="form.group_general">
+      <trans-unit id="3poG52l" resname="form.group_general">
         <source>form.group_general</source>
         <target>Gruppe</target>
       </trans-unit>
-      <trans-unit id="uRSZ_kR" resname="form.group_default">
+      <trans-unit id="h8ZypYM" resname="form.group_default">
         <source>form.group_default</source>
         <target>Gruppe</target>
       </trans-unit>
-      <trans-unit id="sLXSOsk" resname="list.label_department">
+      <trans-unit id="aXxnLQQ" resname="list.label_department">
         <source>list.label_department</source>
         <target>Department</target>
       </trans-unit>
-      <trans-unit id="QZSBDRu" resname="form.label_department">
+      <trans-unit id="El4gs22" resname="form.label_department">
         <source>form.label_department</source>
         <target>Department</target>
       </trans-unit>

@@ -5,10 +5,10 @@ namespace Kantine\Entity;
 use Kantine\Repository\OrderRepository;
 use Kantine\Validator\UniqueDateForCostumer;
 use DateTime;
+use Doctrine\DBAL\Schema\DefaultExpression\CurrentTimestamp;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Shared\Entity\Costumer;
-use Symfony\Component\Validator\Constraints as Assert;
 
 
 #[ORM\Entity(repositoryClass: OrderRepository::class)]
@@ -25,10 +25,10 @@ class Order
 
     public function __construct()
     {
-        $this->order_dateTime = new DateTime();
+        // $this->order_dateTime = new DateTime();
     }
 
-    #[ORM\Column]
+    #[ORM\Column(options: ['default' => new CurrentTimestamp()], insertable: false, updatable: false)]
     private ?\DateTime $order_dateTime = null;
 
     #[ORM\ManyToOne(inversedBy: 'orders', cascade: ['persist', 'persist'])]

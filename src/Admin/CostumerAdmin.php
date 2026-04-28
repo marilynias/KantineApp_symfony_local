@@ -12,6 +12,7 @@ use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Show\ShowMapper;
 use Sonata\DoctrineORMAdminBundle\Filter\ChoiceFilter;
+use Sonata\Form\Type\DatePickerType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 
 
@@ -51,8 +52,10 @@ final class CostumerAdmin extends AbstractAdmin
                 'choices' => Costumer::DEPARTMENTS,
             ])
             ->add('enddate', null, [
-                'format' => 'd-m-Y',
-            ] )
+                'widget' => 'single_text',
+                'html5' => false,
+                'help' => '(Format: dd.MM.yyyy)',
+                'format' => 'd.M.y'])
             ->add('Barcode', 'barcode')                         // custom types defined in config/packages/sonata_doctrine_orm_admin.yaml
             ->add(ListMapper::NAME_ACTIONS, null, [
                 'actions' => [
@@ -100,7 +103,9 @@ final class CostumerAdmin extends AbstractAdmin
             ->add('firstname')
             ->add('lastname')
             ->add('active', null, ['data' => true])
-            ->add('enddate')
+            ->add('enddate', DatePickerType::class, [
+                'widget' => 'single_text',
+                'html5' => false,])
             ->add('Department', ChoiceType::class, [
                 'choices' => Costumer::DEPARTMENTS,
             ])
@@ -115,7 +120,7 @@ final class CostumerAdmin extends AbstractAdmin
             ->add('lastname')
             ->add('active')
             ->add('enddate', null, [
-                'format' => 'd.m.Y',
+                'format' => 'd.M.y',
             ])
             ->add('Barcode', 'barcode')             // custom types defined in config/packages/sonata_doctrine_orm_admin.yaml
             ->add('Department')

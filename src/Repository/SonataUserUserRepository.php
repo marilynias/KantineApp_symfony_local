@@ -32,4 +32,14 @@ class SonataUserUserRepository extends ServiceEntityRepository implements Passwo
         $this->getEntityManager()->persist($user);
         $this->getEntityManager()->flush();
     }
+
+    // public function findOneByUsername(string $username): SonataUserUser
+    // {
+    //     $q = $this->createQueryBuilder('u')
+    //         ->where('u.username = :uname')
+    //         ->setParameter('uname', $username)
+    //         ->getQuery();
+    //     var_dump($q->getOneOrNullResult());
+    //     return $q->getOneOrNullResult();
+    // }
 }

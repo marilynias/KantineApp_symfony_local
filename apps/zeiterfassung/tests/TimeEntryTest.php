@@ -102,14 +102,14 @@ class TimeEntryTest extends WebTestCase
             $this->entityManager->flush();
         }
 
-        $content = $this->postTimeentry($token, $costumer->getId());
+        $content = $this->postTimeentry($token, $costumer->id);
         // var_dump($content);
         $this->assertResponseIsSuccessful('Could not post TimeEntry: '.$content);
         $this->assertResponseStatusCodeSame(Response::HTTP_CREATED, "Wrong status code: ".$this->client->getResponse());
 
 
         // test cooldown
-        $cooldown_response = $this->postTimeentry( $token, $costumer->getId());
+        $cooldown_response = $this->postTimeentry( $token, $costumer->id);
         $this->assertResponseStatusCodeSame(Response::HTTP_TOO_MANY_REQUESTS);
 
         // set timeentry to earlier to avoid cooldown
@@ -120,7 +120,7 @@ class TimeEntryTest extends WebTestCase
         $this->entityManager->persist($timeEntry);
         $this->entityManager->flush();
 
-        $logout_response = $this->postTimeentry($token, $costumer->getId());
+        $logout_response = $this->postTimeentry($token, $costumer->id);
         $this->assertResponseIsSuccessful('Could not checkout TimeEntry: '.$content);
     }
 
@@ -142,7 +142,7 @@ class TimeEntryTest extends WebTestCase
 
         $this->client->request('POST', '/api', server:[
             "HTTP_AUTHORIZATION" => "Bearer ".$token
-        ], content: json_encode(["barcode" => $costumer->getId(), "time" => $time_to_post]));
+        ], content: json_encode(["barcode" => $costumer->id, "time" => $time_to_post]));
 
         $res = json_decode($this->client->getResponse()->getContent(), true);
         // var_dump($res);

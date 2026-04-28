@@ -31,8 +31,8 @@ final class CostumerController extends AbstractFOSRestController
             "%firstname% %lastname% in %dep% could not me added: %cause%",
             [
                 '%cause%' => $error,
-                '%firstname%' => $costumer->getFirstname(),
-                '%lastname%' => $costumer->getLastname(),
+                '%firstname%' => $costumer->firstname,
+                '%lastname%' => $costumer->lastname,
                 '%dep%' => $costumer->getDepartment() ?? _("NO DEPARTMENT SET"),
             ]
         ));
@@ -152,10 +152,10 @@ final class CostumerController extends AbstractFOSRestController
                 try {
                     $costumer = new Costumer();
                     $costumer
-                        ->setActive(true)
-                        ->setFirstname($data[0])
-                        ->setLastname($data[1])
                         ->setDepartment(Department: count($data) >= 3 ? $data[2] : null);
+                    $costumer->active = true;
+                    $costumer->firstname = $data[0];
+                    $costumer->lastname= $data[1];
 
                     $errors = $this->validator->validate($costumer);
                     if ($errors->count()) {
@@ -167,8 +167,8 @@ final class CostumerController extends AbstractFOSRestController
                         $this->addFlash('notice', new TranslatableMessage(
                             'sucessfully added: %firstname% %lastname% in %dep% &emsp; <img src="/%barcode%"> ',
                             [
-                                '%firstname%' => $costumer->getFirstname(),
-                                '%lastname%' => $costumer->getLastname(),
+                                '%firstname%' => $costumer->firstname,
+                                '%lastname%' => $costumer->lastname,
                                 '%dep%' => $costumer->getDepartment() ?? _("NO DEPARTMENT SET"),
                                 '%barcode%' => $costumer->getBarcode()
                                 ]
@@ -215,9 +215,9 @@ final class CostumerController extends AbstractFOSRestController
         $generated = [];
         for ($i = 0; $i < $num; $i++) {
             $costumer = new Costumer();
-            $costumer->setFirstname($names[0][array_rand($names[0])])
-                ->setLastname($names[1][array_rand($names[1])])
-                ->setActive(true);
+            $costumer->firstname = $names[0][array_rand($names[0])];
+            $costumer->lastname = $names[1][array_rand($names[1])];
+            $costumer->active = true;
             $errors = $this->validator->validate($costumer);
             if ($errors->count() > 0) {
                 continue;
@@ -225,7 +225,7 @@ final class CostumerController extends AbstractFOSRestController
             }
             $this->entityManager->persist($costumer);
             $this->entityManager->flush();
-            $generated[$i] = join(" ", [$costumer->getId(), $costumer->getFirstname(), $costumer->getLastname()]) . "<br>";
+            $generated[$i] = join(" ", [$costumer->id, $costumer->firstname, $costumer->lastname]) . "<br>";
         }
 
         return new Response(implode($generated));

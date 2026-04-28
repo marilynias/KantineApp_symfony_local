@@ -14,7 +14,7 @@ class TimeEntry
     #[ORM\Column]
     private ?int $id = null;
 
-    #[ORM\ManyToOne(targetEntity: User::class)]
+    #[ORM\ManyToOne(inversedBy: "timeEnties", targetEntity: User::class)]
     #[ORM\JoinColumn(nullable: false, onDelete:"CASCADE")]
     private ?User $user = null;
 
@@ -83,6 +83,6 @@ class TimeEntry
 
     public function __toString(): string
     {
-        return $this->user ? $this->user->getFirstname(). " ". $this->user->getLastname() : 'Unknown User';
+        return $this->user ? $this->user->getFullName() : 'Unknown User';
     }
 }
