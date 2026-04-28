@@ -195,27 +195,9 @@ final class TimeEntryAdmin extends AbstractAdmin
             },
         ]);
 
-        $filter->add('month', CallbackFilter::class, [
-            'field_type' => DatePickerType::class,
-            
-            'callback' => function ($qb, $alias, $field, $value) {
-                if (!$value || !$value->hasValue() || $value->getValue() !== true) return false;
-                $todayStart = new \DateTime('today');
-                $todayEnd   = new \DateTime('tomorrow');
-                $qb->andWhere("$alias.checkinTime BETWEEN :ts AND :te")
-                    ->setParameter('ts', $todayStart)
-                    ->setParameter('te', $todayEnd);
-                return true;
-            },
-
-            // 'field_options' => [
-            //     'choices' => range(1,12)
-            // ]
-        ]);
-
         $filter->add('checkinTime', DateRangeFilter::class, [
             'field_type' => DateRangePickerType::class,
-            'label' => 'From - to',
+            'label' => $this->translator->trans('From - to'),
         ]);
     }
 

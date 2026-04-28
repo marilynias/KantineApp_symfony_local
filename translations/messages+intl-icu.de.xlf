@@ -209,6 +209,10 @@
         <source>Month</source>
         <target>Monat</target>
       </trans-unit>
+      <trans-unit id="43FgOvL" resname="From - to">
+        <source>From - to</source>
+        <target>Von - bis</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
