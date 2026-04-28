@@ -36,7 +36,8 @@ final class TimeEntryBatchController extends AbstractController
 
         foreach ($selectedUsers as $timeEntry) {
             if(!$timeEntry instanceof TimeEntry) continue;
-            $data[$timeEntry->getUser()->getFullname()][] = [
+            $month = $timeEntry->getCheckinTime()->format('MM.yyyy');
+            $data[$timeEntry->getUser()->getFullname()][$month][] = [
                 // 'Datum'=>   $format, $timeEntry->getCheckinTime()->format('ll dd.mm.yyyy'), 
                 'Datum'=>   datefmt_format($format, $timeEntry->getCheckinTime()), 
                 'Eintrag' => $timeEntry->getCheckinTime()->format('h:m'), 
@@ -56,20 +57,20 @@ final class TimeEntryBatchController extends AbstractController
             throw new \RuntimeException(_('Cannot open ' . $zipName));
         }
 
-        foreach ($data as $costumer => $entries) {
+        foreach ($data as $costumer => $months) {
             // if(!$costumer instanceof Costumer) continue;
-            $source = new ArraySourceIterator($entries);
-            $tmpName = tempnam(sys_get_temp_dir(), 'xlsx_');
-            if(file_exists($tmpName)) unlink($tmpName);             // hacky way to just get a random name
-
-            $writer = new XlsxWriter($tmpName);
-            // $writer->open();
-            // foreach ($source as $value) {
-            //     $writer->write($value);
-            // }
+            
+            $zip->addEmptyDir($costumer);
+            foreach ($months as $entries) {
+                //     $writer->write($value);
+                $source = new ArraySourceIterator($entries);
+                $tmpName = tempnam(sys_get_temp_dir(), 'xlsx_');
+                if(file_exists($tmpName)) unlink($tmpName);             // hacky way to just get a random name
+                $writer = new XlsxWriter($tmpName);
+                Handler::create($source, $writer)->export();
+            }
             // $writer->close();
-            Handler::create($source, $writer)->export();
-            $zip->addFile($tmpName, $costumer.'_'.date('m.Y').'.xlsx');
+            $zip->addFile($tmpName, $costumer.DIRECTORY_SEPARATOR.$costumer.'_'.date('m.Y').'.xlsx');
         }
         if (!$zip->close()) throw new \RuntimeException(_('Cannot close ' . $zipName));
         $response = new BinaryFileResponse($zipName);
