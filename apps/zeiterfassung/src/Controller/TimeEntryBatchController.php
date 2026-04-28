@@ -33,8 +33,8 @@ final class TimeEntryBatchController extends AbstractController
             $month = $timeEntry->getCheckinTime()->format('m.y');
             $data[$timeEntry->getUser()->getFullname()][$month][] = [
                 'Datum'=>   datefmt_format($format, $timeEntry->getCheckinTime()), 
-                'Eintrag' => $timeEntry->getCheckinTime()->format('h:m'), 
-                'Austrag' => $timeEntry->getCheckoutTime()? $timeEntry->getCheckoutTime()->format('h:m'):''];
+                'Eintrag' => $timeEntry->getCheckinTime()->format('H:i'), 
+                'Austrag' => $timeEntry->getCheckoutTime()? $timeEntry->getCheckoutTime()->format('H:i'):''];
         }
 
         $zipName = tempnam(sys_get_temp_dir(), 'zip_');
