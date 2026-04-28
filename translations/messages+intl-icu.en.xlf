@@ -5,169 +5,193 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="w3uczGl" resname="Costumer">
+      <trans-unit id="hOzsvXs" resname="Costumer">
         <source>Costumer</source>
         <target>Costumer</target>
       </trans-unit>
-      <trans-unit id="IbERy.5" resname="Default">
+      <trans-unit id="NR4FjXR" resname="Default">
         <source>Default</source>
         <target>Default</target>
       </trans-unit>
-      <trans-unit id="EhVukhv" resname="Id">
+      <trans-unit id="hm.JYE2" resname="Id">
         <source>Id</source>
         <target>Id</target>
       </trans-unit>
-      <trans-unit id="ZHz6kbI" resname="Firstname">
+      <trans-unit id="b0rVy.t" resname="Firstname">
         <source>Firstname</source>
         <target>Firstname</target>
       </trans-unit>
-      <trans-unit id="htiPHRy" resname="Lastname">
+      <trans-unit id="lMHWSf6" resname="Lastname">
         <source>Lastname</source>
         <target>Lastname</target>
       </trans-unit>
-      <trans-unit id="kjQGlYm" resname="Active">
+      <trans-unit id="JjO6Nuw" resname="Active">
         <source>Active</source>
         <target>Active</target>
       </trans-unit>
-      <trans-unit id="r6AgnXN" resname="Enddate">
+      <trans-unit id="0.t1YWw" resname="Enddate">
         <source>Enddate</source>
         <target>Enddate</target>
       </trans-unit>
-      <trans-unit id="pAHzchA" resname="Barcode">
+      <trans-unit id="58U71Yu" resname="Barcode">
         <source>Barcode</source>
         <target>Barcode</target>
       </trans-unit>
-      <trans-unit id=".4BZ3Gd" resname="Actions">
+      <trans-unit id="1_MZEgP" resname="Actions">
         <source>Actions</source>
         <target>Actions</target>
       </trans-unit>
-      <trans-unit id="hgDZWDO" resname="Costumer List">
+      <trans-unit id="JyHKZIz" resname="Costumer List">
         <source>Costumer List</source>
         <target>Costumer List</target>
       </trans-unit>
-      <trans-unit id="Sk1T9wP" resname="Costumer Create">
+      <trans-unit id="HKoe9n." resname="Costumer Create">
         <source>Costumer Create</source>
         <target>Costumer Create</target>
       </trans-unit>
-      <trans-unit id="a_CQgly" resname="Order">
+      <trans-unit id="V2sSnK9" resname="Order">
         <source>Order</source>
         <target>Order</target>
       </trans-unit>
-      <trans-unit id="V7zPDAl" resname="Order Date Time">
+      <trans-unit id="bkX6Qb8" resname="Order Date Time">
         <source>Order Date Time</source>
         <target>Order Date Time</target>
       </trans-unit>
-      <trans-unit id="HLf8Cj5" resname="Ordered Item">
+      <trans-unit id="R0rrC.K" resname="Ordered Item">
         <source>Ordered Item</source>
         <target>Ordered Item</target>
       </trans-unit>
-      <trans-unit id="R_KIbuX" resname="Tax">
+      <trans-unit id="FuFtLuY" resname="Tax">
         <source>Tax</source>
         <target>Tax</target>
       </trans-unit>
-      <trans-unit id="QEGoILw" resname="Order List">
+      <trans-unit id="A6V04DG" resname="Order List">
         <source>Order List</source>
         <target>Order List</target>
       </trans-unit>
-      <trans-unit id="7zV8yU1" resname="Order Create">
+      <trans-unit id="cjtCaRx" resname="Order Create">
         <source>Order Create</source>
         <target>Order Create</target>
       </trans-unit>
-      <trans-unit id="UwSrmOW" resname="Department">
+      <trans-unit id="LZXye1z" resname="Department">
         <source>Department</source>
         <target>Department</target>
       </trans-unit>
-      <trans-unit id="TSuzaPk" resname="Übersicht">
+      <trans-unit id="V3b1wEP" resname="Übersicht">
         <source>Übersicht</source>
         <target>Time Entries</target>
       </trans-unit>
-      <trans-unit id="jryzJEK" resname="Time Entry List">
+      <trans-unit id="fdsitCh" resname="Time Entry List">
         <source>Time Entry List</source>
         <target>Time Entry List</target>
       </trans-unit>
-      <trans-unit id="YVTiGwg" resname="Time Entry Create">
+      <trans-unit id="ZKRDfrs" resname="Time Entry Create">
         <source>Time Entry Create</source>
         <target>Time Entry Create</target>
       </trans-unit>
-      <trans-unit id="HOLKkg2" resname="%firstname% %lastname% in %dep% could not me added: %cause%">
+      <trans-unit id="IBkZVEv" resname="%firstname% %lastname% in %dep% could not me added: %cause%">
         <source>%firstname% %lastname% in %dep% could not me added: %cause%</source>
         <target>%firstname% %lastname% in %dep% could not me added: %cause%</target>
       </trans-unit>
-      <trans-unit id="ZnSEFXp" resname="updated department %dep% for existing costumer: %firstname% %lastname% &amp;emsp; &lt;img src=&quot;/%barcode%&quot;&gt; ">
+      <trans-unit id="YqwSWnY" resname="updated department %dep% for existing costumer: %firstname% %lastname% &amp;emsp; &lt;img src=&quot;/%barcode%&quot;&gt; ">
         <source>updated department %dep% for existing costumer: %firstname% %lastname% &amp;emsp; &lt;img src="/%barcode%"&gt; </source>
         <target><![CDATA[__updated department %dep% for existing costumer: %firstname% %lastname% &emsp; <img src="/%barcode%"> ]]></target>
       </trans-unit>
-      <trans-unit id="k13JI7C" resname="sucessfully added: %firstname% %lastname% in %dep% &amp;emsp; &lt;img src=&quot;/%barcode%&quot;&gt; ">
+      <trans-unit id="hzrcTfu" resname="sucessfully added: %firstname% %lastname% in %dep% &amp;emsp; &lt;img src=&quot;/%barcode%&quot;&gt; ">
         <source>sucessfully added: %firstname% %lastname% in %dep% &amp;emsp; &lt;img src="/%barcode%"&gt; </source>
         <target><![CDATA[__sucessfully added: %firstname% %lastname% in %dep% &emsp; <img src="/%barcode%"> ]]></target>
       </trans-unit>
-      <trans-unit id="JrqrCkq" resname="Zeiteinträge">
+      <trans-unit id="NVngfT_" resname="Zeiteinträge">
         <source>Zeiteinträge</source>
         <target>Time Entries</target>
       </trans-unit>
-      <trans-unit id="tRLZfny" resname="User">
+      <trans-unit id="TkiKoB6" resname="User">
         <source>User</source>
         <target>Supervisor</target>
       </trans-unit>
-      <trans-unit id="LgUe4aA" resname="User Department">
+      <trans-unit id="lqOJWtE" resname="User Department">
         <source>User Department</source>
         <target>Supervisor Bereich</target>
       </trans-unit>
-      <trans-unit id="vqcrsVK" resname="Missing Checkin Checkout">
+      <trans-unit id="m6NnL6u" resname="Missing Checkin Checkout">
         <source>Missing Checkin Checkout</source>
         <target>Missing Checkin Checkout</target>
       </trans-unit>
-      <trans-unit id="KwZcfJz" resname="Today">
+      <trans-unit id="swKwU_O" resname="Today">
         <source>Today</source>
         <target>Today</target>
       </trans-unit>
-      <trans-unit id="YSiOgqG" resname="From Date">
+      <trans-unit id="LfcH.gG" resname="From Date">
         <source>From Date</source>
         <target>From Date</target>
       </trans-unit>
-      <trans-unit id="j0TR6jz" resname="To Date">
+      <trans-unit id="DQak83I" resname="To Date">
         <source>To Date</source>
         <target>To Date</target>
       </trans-unit>
-      <trans-unit id="0cLGoq2" resname="Fachanleiter">
+      <trans-unit id="yL6_mrE" resname="Fachanleiter">
         <source>Fachanleiter</source>
         <target>Supervisor</target>
       </trans-unit>
-      <trans-unit id="47ienTP" resname="Username">
+      <trans-unit id="VhxhtYo" resname="Username">
         <source>Username</source>
         <target>Username</target>
       </trans-unit>
-      <trans-unit id="lpzL089" resname="Email">
+      <trans-unit id="JZi_tm0" resname="Email">
         <source>Email</source>
         <target>Email</target>
       </trans-unit>
-      <trans-unit id="ksHN.fT" resname="Enabled">
+      <trans-unit id="FdpiKgY" resname="Enabled">
         <source>Enabled</source>
         <target>Enabled</target>
       </trans-unit>
-      <trans-unit id="PUQzcBC" resname="Created At">
+      <trans-unit id="Ey2epSG" resname="Created At">
         <source>Created At</source>
         <target>Created At</target>
       </trans-unit>
-      <trans-unit id="yRDUdNz" resname="General">
+      <trans-unit id="gEcArhl" resname="General">
         <source>General</source>
         <target>General</target>
       </trans-unit>
-      <trans-unit id="7TE8nTi" resname="Plain Password">
+      <trans-unit id="4RC9QUR" resname="Plain Password">
         <source>Plain Password</source>
         <target>Plain Password</target>
       </trans-unit>
-      <trans-unit id="wlM3BVR" resname="Roles">
+      <trans-unit id="aq2eM8Q" resname="Roles">
         <source>Roles</source>
         <target>Roles</target>
       </trans-unit>
-      <trans-unit id="sIwK89t" resname="User List">
+      <trans-unit id="p57qEQE" resname="User List">
         <source>User List</source>
         <target>Supervisor List</target>
       </trans-unit>
-      <trans-unit id="7f4FugA" resname="User Create">
+      <trans-unit id="alQea1S" resname="User Create">
         <source>User Create</source>
         <target>Supervisor Create</target>
+      </trans-unit>
+      <trans-unit id="NHTo1QO" resname="Order Formatted">
+        <source>Order Formatted</source>
+        <target>__Order Formatted</target>
+      </trans-unit>
+      <trans-unit id="XMs3Q0o" resname="User already ordered, update order?">
+        <source>User already ordered, update order?</source>
+        <target>User already ordered, update order?</target>
+      </trans-unit>
+      <trans-unit id="WmbkJDd" resname="cancel">
+        <source>cancel</source>
+        <target>cancel</target>
+      </trans-unit>
+      <trans-unit id="Pirad.Y" resname="Export As Report">
+        <source>Export As Report</source>
+        <target>Export As Report</target>
+      </trans-unit>
+      <trans-unit id="EhM5rNi" resname="Month">
+        <source>Month</source>
+        <target>Month</target>
+      </trans-unit>
+      <trans-unit id="SrPzv8l" resname="No Dept">
+        <source>No Dept</source>
+        <target>No Dept</target>
       </trans-unit>
     </body>
   </file>

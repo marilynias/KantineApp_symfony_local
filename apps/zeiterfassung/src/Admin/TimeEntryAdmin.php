@@ -22,6 +22,8 @@ use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\DatagridInterface;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Form\Type\ModelAutocompleteType;
+use Sonata\DoctrineORMAdminBundle\Filter\DateRangeFilter;
+use Sonata\Form\Type\DateRangePickerType;
 use Symfony\Component\Translation\TranslatableMessage;
 use Symfony\Contracts\Translation\TranslatorInterface;
 
@@ -77,6 +79,12 @@ final class TimeEntryAdmin extends AbstractAdmin
         if (isset($actions['delete'])) {
             unset($actions['delete']);
         }
+
+        $actions['export as report'] = [
+            'ask_confirmation' => false,
+            'controller' => 'Zeiterfassung\Controller\TimeEntryBatchController::batchGetReportAction',
+        ];
+
 
         return $actions;
     }
@@ -187,50 +195,27 @@ final class TimeEntryAdmin extends AbstractAdmin
             },
         ]);
 
-        $filter->add('fromDate', CallbackFilter::class, [
+        $filter->add('month', CallbackFilter::class, [
             'field_type' => DatePickerType::class,
-            'field_options' => [
-                'widget' => 'single_text',
-                'format' => 'dd.MM.yyyy',
-                'html5' => false,
-                'attr' => ['class' => 'custom-datepicker'],
-                'datepicker_options' => [
-                    'allowInputToggle' => true,
-
-                ],
-            ],
+            
             'callback' => function ($qb, $alias, $field, $value) {
-                if (!$value || !$value->hasValue()) return false;
-
-                $from = $value->getValue();
-                $qb->andWhere("$alias.checkinTime >= :from")
-                    ->setParameter('from', $from);
-
+                if (!$value || !$value->hasValue() || $value->getValue() !== true) return false;
+                $todayStart = new \DateTime('today');
+                $todayEnd   = new \DateTime('tomorrow');
+                $qb->andWhere("$alias.checkinTime BETWEEN :ts AND :te")
+                    ->setParameter('ts', $todayStart)
+                    ->setParameter('te', $todayEnd);
                 return true;
-            }
+            },
+
+            // 'field_options' => [
+            //     'choices' => range(1,12)
+            // ]
         ]);
 
-        $filter->add('toDate', CallbackFilter::class, [
-            'field_type' => DatePickerType::class,
-            'field_options' => [
-                'widget' => 'single_text',
-                'format' => 'dd.MM.yyyy',
-                'html5' => false,
-                'attr' => ['class' => 'custom-datepicker'],
-                'datepicker_options' => [
-                    'allowInputToggle' => true,
-
-                ],
-            ],
-            'callback' => function ($qb, $alias, $field, $value) {
-                if (!$value || !$value->hasValue()) return false;
-
-                $to = $value->getValue();
-                $qb->andWhere("$alias.checkinTime <= :to")
-                    ->setParameter('to', $to);
-
-                return true;
-            }
+        $filter->add('checkinTime', DateRangeFilter::class, [
+            'field_type' => DateRangePickerType::class,
+            'label' => 'From - to',
         ]);
     }
 
@@ -282,6 +267,11 @@ final class TimeEntryAdmin extends AbstractAdmin
         return ['user.fullName', 'user.Department', 'checkinTime', 'checkoutTime'];
     }
 
+//     public function getExportFormats(): array
+// {
+//     return ['xlsx', 'pdf'];
+// }
+
     // -------------------------------------------------------------------
     // DEFAULT SORTING + TODAY FILTER
     // -------------------------------------------------------------------
@@ -291,4 +281,6 @@ final class TimeEntryAdmin extends AbstractAdmin
         $sortValues[DatagridInterface::SORT_ORDER] = 'DESC';
         $sortValues[DatagridInterface::SORT_BY] = 'id';
     }
+
+    
 }

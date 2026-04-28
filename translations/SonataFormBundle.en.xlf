@@ -5,23 +5,23 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="2KdkJXq" resname="link_add">
+      <trans-unit id="9s56YjR" resname="link_add">
         <source>link_add</source>
         <target>Add new</target>
       </trans-unit>
-      <trans-unit id="vf3cxXi" resname="label_type_yes">
+      <trans-unit id="3H2L4xs" resname="label_type_yes">
         <source>label_type_yes</source>
         <target>yes</target>
       </trans-unit>
-      <trans-unit id="_KcfkqG" resname="label_type_no">
+      <trans-unit id="__UwhSn" resname="label_type_no">
         <source>label_type_no</source>
         <target>no</target>
       </trans-unit>
-      <trans-unit id="shi_F2d" resname="date_range_start">
+      <trans-unit id="E7vbYdT" resname="date_range_start">
         <source>date_range_start</source>
         <target>From</target>
       </trans-unit>
-      <trans-unit id="D7BcqBT" resname="date_range_end">
+      <trans-unit id="4UtWQsi" resname="date_range_end">
         <source>date_range_end</source>
         <target>To</target>
       </trans-unit>

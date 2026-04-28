@@ -5,83 +5,83 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="sTGQL5y" resname="sonata.block.service.container">
+      <trans-unit id="84smRsL" resname="sonata.block.service.container">
         <source>sonata.block.service.container</source>
         <target>Container</target>
       </trans-unit>
-      <trans-unit id="C91eiMR" resname="sonata.block.service.text">
+      <trans-unit id="FlJk7j_" resname="sonata.block.service.text">
         <source>sonata.block.service.text</source>
         <target>Einfacher Text</target>
       </trans-unit>
-      <trans-unit id="rEEPz_B" resname="sonata.block.service.rss">
+      <trans-unit id="EhA0fiB" resname="sonata.block.service.rss">
         <source>sonata.block.service.rss</source>
         <target>RSS Feed</target>
       </trans-unit>
-      <trans-unit id="5uBvA3F" resname="sonata.block.service.menu">
+      <trans-unit id="eM0ANC_" resname="sonata.block.service.menu">
         <source>sonata.block.service.menu</source>
         <target>Menü</target>
       </trans-unit>
-      <trans-unit id="NBjI_D0" resname="sonata.block.service.template">
+      <trans-unit id="3nB3BXK" resname="sonata.block.service.template">
         <source>sonata.block.service.template</source>
         <target>Template</target>
       </trans-unit>
-      <trans-unit id="3_pnjoz" resname="form.label_template">
+      <trans-unit id="7.PYYzN" resname="form.label_template">
         <source>form.label_template</source>
         <target>Template</target>
       </trans-unit>
-      <trans-unit id="_Zhah40" resname="form.label_content">
+      <trans-unit id="ONuDtIq" resname="form.label_content">
         <source>form.label_content</source>
         <target>Inhalt</target>
       </trans-unit>
-      <trans-unit id="1kSuG.g" resname="form.label_url">
+      <trans-unit id="tSwz82O" resname="form.label_url">
         <source>form.label_url</source>
         <target>URL</target>
       </trans-unit>
-      <trans-unit id="hEFmOyL" resname="form.label_title">
+      <trans-unit id="fOF_hou" resname="form.label_title">
         <source>form.label_title</source>
         <target>Titel</target>
       </trans-unit>
-      <trans-unit id="cVdqSMj" resname="form.label_code">
+      <trans-unit id="wxTHfhu" resname="form.label_code">
         <source>form.label_code</source>
         <target>Code</target>
       </trans-unit>
-      <trans-unit id="TN0VSmK" resname="form.label_layout">
+      <trans-unit id="zKZanTf" resname="form.label_layout">
         <source>form.label_layout</source>
         <target>Layout</target>
       </trans-unit>
-      <trans-unit id="gWHi3S7" resname="form.label_class">
+      <trans-unit id="mXl40C9" resname="form.label_class">
         <source>form.label_class</source>
         <target>CSS Klasse</target>
       </trans-unit>
-      <trans-unit id="HYFRRPN" resname="form.label_menu_name">
+      <trans-unit id="_MPOWXe" resname="form.label_menu_name">
         <source>form.label_menu_name</source>
         <target>Menu</target>
       </trans-unit>
-      <trans-unit id="f6JLp0l" resname="form.label_safe_labels">
+      <trans-unit id="_qnw2L1" resname="form.label_safe_labels">
         <source>form.label_safe_labels</source>
         <target>Sichere Bezeichner</target>
       </trans-unit>
-      <trans-unit id="EPwqZII" resname="form.label_current_class">
+      <trans-unit id="ps53o0r" resname="form.label_current_class">
         <source>form.label_current_class</source>
         <target>Aktuelle CSS Klasse</target>
       </trans-unit>
-      <trans-unit id="wYEUxWH" resname="form.label_first_class">
+      <trans-unit id="ecp38Dq" resname="form.label_first_class">
         <source>form.label_first_class</source>
         <target>Erste CSS Klasse</target>
       </trans-unit>
-      <trans-unit id="UYTKpIn" resname="form.label_last_class">
+      <trans-unit id="jZQGk9d" resname="form.label_last_class">
         <source>form.label_last_class</source>
         <target>Letzte CSS Klasse</target>
       </trans-unit>
-      <trans-unit id="eVdBcdV" resname="form.label_menu_template">
+      <trans-unit id="Lm7Em3F" resname="form.label_menu_template">
         <source>form.label_menu_template</source>
         <target>Menü Template</target>
       </trans-unit>
-      <trans-unit id="dhibfe4" resname="form.label_translation_domain">
+      <trans-unit id="nv7VPe0" resname="form.label_translation_domain">
         <source>form.label_translation_domain</source>
         <target>Übersetzungsdatei</target>
       </trans-unit>
-      <trans-unit id="kSxcQro" resname="form.label_icon">
+      <trans-unit id="GSpDmjc" resname="form.label_icon">
         <source>form.label_icon</source>
         <target>Icon</target>
       </trans-unit>
