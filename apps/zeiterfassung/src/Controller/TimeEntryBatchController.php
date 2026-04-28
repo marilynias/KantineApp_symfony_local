@@ -52,8 +52,8 @@ final class TimeEntryBatchController extends AbstractController
                 if(file_exists($tmpName)) unlink($tmpName);             // hacky way to just get a random name, not the new file
                 $writer = new XlsxWriter($tmpName);
                 Handler::create($source, $writer)->export();
+                $zip->addFile($tmpName, $costumer.DIRECTORY_SEPARATOR.$costumer.'_'.date('m.Y').'.xlsx');
             }
-            $zip->addFile($tmpName, $costumer.DIRECTORY_SEPARATOR.$costumer.'_'.date('m.Y').'.xlsx');
         }
         if (!$zip->close()) throw new \RuntimeException(_('Cannot close ' . $zipName));
 
