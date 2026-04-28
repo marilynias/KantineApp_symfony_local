@@ -5,527 +5,527 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="ukPeTVI" resname="sonata_administration">
+      <trans-unit id="wjqgdnX" resname="sonata_administration">
         <source>sonata_administration</source>
         <target>Verwaltung</target>
       </trans-unit>
-      <trans-unit id="DTHe6IT" resname="action_delete">
+      <trans-unit id="01fYJSx" resname="action_delete">
         <source>action_delete</source>
         <target>Löschen</target>
       </trans-unit>
-      <trans-unit id="lwQshEz" resname="btn_batch">
+      <trans-unit id="JBng1XM" resname="btn_batch">
         <source>btn_batch</source>
         <target>OK</target>
       </trans-unit>
-      <trans-unit id="VVeNuxV" resname="btn_create">
+      <trans-unit id="oKT4jRH" resname="btn_create">
         <source>btn_create</source>
         <target>Hinzufügen</target>
       </trans-unit>
-      <trans-unit id="p9CSSaQ" resname="btn_create_and_edit_again">
+      <trans-unit id="gX4XqME" resname="btn_create_and_edit_again">
         <source>btn_create_and_edit_again</source>
         <target>Hinzufügen</target>
       </trans-unit>
-      <trans-unit id="tMsjYm9" resname="btn_create_and_create_a_new_one">
+      <trans-unit id="tvwohvq" resname="btn_create_and_create_a_new_one">
         <source>btn_create_and_create_a_new_one</source>
         <target>Hinzufügen und neu</target>
       </trans-unit>
-      <trans-unit id="BpoG1g2" resname="btn_create_and_return_to_list">
+      <trans-unit id="vXW2Kz7" resname="btn_create_and_return_to_list">
         <source>btn_create_and_return_to_list</source>
         <target>Hinzufügen und zur Übersicht</target>
       </trans-unit>
-      <trans-unit id="negd2oK" resname="btn_filter">
+      <trans-unit id="IeierDo" resname="btn_filter">
         <source>btn_filter</source>
         <target>Filtern</target>
       </trans-unit>
-      <trans-unit id="Nz8cDNT" resname="btn_advanced_filters">
+      <trans-unit id="3XOallF" resname="btn_advanced_filters">
         <source>btn_advanced_filters</source>
         <target>Erweiterte Filter</target>
       </trans-unit>
-      <trans-unit id="uX4pdI." resname="btn_update">
+      <trans-unit id="k7LfPvi" resname="btn_update">
         <source>btn_update</source>
         <target>Speichern</target>
       </trans-unit>
-      <trans-unit id="EmRVvLi" resname="btn_update_and_edit_again">
+      <trans-unit id="ezHMQ_Y" resname="btn_update_and_edit_again">
         <source>btn_update_and_edit_again</source>
         <target>Speichern</target>
       </trans-unit>
-      <trans-unit id="Px_Ux2e" resname="btn_update_and_return_to_list">
+      <trans-unit id="ht1BMGw" resname="btn_update_and_return_to_list">
         <source>btn_update_and_return_to_list</source>
         <target>Speichern und schließen</target>
       </trans-unit>
-      <trans-unit id="dCgAo_P" resname="link_delete">
+      <trans-unit id="yynj31_" resname="link_delete">
         <source>link_delete</source>
         <target>Löschen</target>
       </trans-unit>
-      <trans-unit id="xKFcK_a" resname="link_action_create">
+      <trans-unit id="zsYPfJs" resname="link_action_create">
         <source>link_action_create</source>
         <target>Neu</target>
       </trans-unit>
-      <trans-unit id="RPO89HT" resname="link_action_list">
+      <trans-unit id="VHmSula" resname="link_action_list">
         <source>link_action_list</source>
         <target>Zurück zur Liste</target>
       </trans-unit>
-      <trans-unit id="xjWKERI" resname="link_action_show">
+      <trans-unit id="V9UkQJf" resname="link_action_show">
         <source>link_action_show</source>
         <target>Anzeigen</target>
       </trans-unit>
-      <trans-unit id=".xV15x0" resname="link_action_edit">
+      <trans-unit id="iB7wiwR" resname="link_action_edit">
         <source>link_action_edit</source>
         <target>Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="2KdkJXq" resname="link_add">
+      <trans-unit id="9s56YjR" resname="link_add">
         <source>link_add</source>
         <target>Neu</target>
       </trans-unit>
-      <trans-unit id=".xLJTYW" resname="link_edit">
+      <trans-unit id="Cv4yPac" resname="link_edit">
         <source>link_edit</source>
         <target>Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="SlXuvax" resname="link_list">
+      <trans-unit id="1D2kQhi" resname="link_list">
         <source>link_list</source>
         <target>Liste</target>
       </trans-unit>
-      <trans-unit id="oGtPqLs" resname="link_reset_filter">
+      <trans-unit id="iUdf5o0" resname="link_reset_filter">
         <source>link_reset_filter</source>
         <target>Zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="xfBeCH1" resname="title_create">
+      <trans-unit id=".dcdyH8" resname="title_create">
         <source>title_create</source>
         <target>Hinzufügen</target>
       </trans-unit>
-      <trans-unit id="QViDcJX" resname="title_show">
+      <trans-unit id="zTN6Y54" resname="title_show">
         <source>title_show</source>
         <target>"%name%" betrachten</target>
       </trans-unit>
-      <trans-unit id="W2_Nn4." resname="title_dashboard">
+      <trans-unit id="1zx_fDs" resname="title_dashboard">
         <source>title_dashboard</source>
         <target>Startseite</target>
       </trans-unit>
-      <trans-unit id="LWu8Lv_" resname="title_edit">
+      <trans-unit id="g0b30g1" resname="title_edit">
         <source>title_edit</source>
         <target>"%name%" bearbeiten</target>
       </trans-unit>
-      <trans-unit id="YDzjAmk" resname="title_list">
+      <trans-unit id="ohP054e" resname="title_list">
         <source>title_list</source>
         <target>Liste</target>
       </trans-unit>
-      <trans-unit id="HUAsrNj" resname="link_next_pager">
+      <trans-unit id="vzgXRpC" resname="link_next_pager">
         <source>link_next_pager</source>
         <target>Nächste</target>
       </trans-unit>
-      <trans-unit id="VAwtXj." resname="link_previous_pager">
+      <trans-unit id="LLWkGCq" resname="link_previous_pager">
         <source>link_previous_pager</source>
         <target>Vorherige</target>
       </trans-unit>
-      <trans-unit id="ERIatNe" resname="link_first_pager">
+      <trans-unit id="PTR6C.0" resname="link_first_pager">
         <source>link_first_pager</source>
         <target>Erste Seite</target>
       </trans-unit>
-      <trans-unit id="iwfE1G1" resname="link_last_pager">
+      <trans-unit id="O7GGaey" resname="link_last_pager">
         <source>link_last_pager</source>
         <target>Letzte Seite</target>
       </trans-unit>
-      <trans-unit id="wcIksDz" resname="Admin">
+      <trans-unit id="kIqhHtP" resname="Admin">
         <source>Admin</source>
         <target>Administrator</target>
       </trans-unit>
-      <trans-unit id="ODunoGd" resname="link_expand">
+      <trans-unit id="DdQbapo" resname="link_expand">
         <source>link_expand</source>
         <target>auf-/zuklappen</target>
       </trans-unit>
-      <trans-unit id="EElE89U" resname="no_result">
+      <trans-unit id="KpBzXem" resname="no_result">
         <source>no_result</source>
         <target>Kein Ergebnis</target>
       </trans-unit>
-      <trans-unit id="nJeANRs" resname="confirm_msg">
+      <trans-unit id="cUJPt0X" resname="confirm_msg">
         <source>confirm_msg</source>
         <target>Sind Sie sicher?</target>
       </trans-unit>
-      <trans-unit id="uu3dQ3z" resname="action_edit">
+      <trans-unit id="1zzSA.m" resname="action_edit">
         <source>action_edit</source>
         <target>Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="U6OJ_DJ" resname="action_show">
+      <trans-unit id="jL1m8X_" resname="action_show">
         <source>action_show</source>
         <target>Anzeigen</target>
       </trans-unit>
-      <trans-unit id="rsqddX7" resname="all_elements">
+      <trans-unit id="9hc5HQi" resname="all_elements">
         <source>all_elements</source>
         <target>Alle Elemente</target>
       </trans-unit>
-      <trans-unit id=".9PvWFh" resname="flash_batch_empty">
+      <trans-unit id="XPSCwrr" resname="flash_batch_empty">
         <source>flash_batch_empty</source>
         <target>Aktion abgebrochen. Es waren keine Elemente ausgewählt.</target>
       </trans-unit>
-      <trans-unit id="V0621GT" resname="flash_create_success">
+      <trans-unit id="eynRri8" resname="flash_create_success">
         <source>flash_create_success</source>
         <target>Das Element "%name%" wurde erfolgreich hinzugefügt.</target>
       </trans-unit>
-      <trans-unit id="QYSlNBv" resname="flash_create_error">
+      <trans-unit id="knhS5PJ" resname="flash_create_error">
         <source>flash_create_error</source>
         <target>Beim Hinzufügen des Elements "%name%" ist ein Fehler aufgetreten.</target>
       </trans-unit>
-      <trans-unit id="YyCGFAE" resname="flash_edit_success">
+      <trans-unit id="cftFzjQ" resname="flash_edit_success">
         <source>flash_edit_success</source>
         <target>Das Element "%name%" wurde erfolgreich bearbeitet.</target>
       </trans-unit>
-      <trans-unit id="xDJlLgD" resname="flash_edit_error">
+      <trans-unit id="MeD8pHD" resname="flash_edit_error">
         <source>flash_edit_error</source>
         <target>Beim Bearbeiten des Elements "%name%" ist ein Fehler aufgetreten.</target>
       </trans-unit>
-      <trans-unit id="pUxIzQx" resname="flash_lock_error">
+      <trans-unit id="1h6PNnR" resname="flash_lock_error">
         <source>flash_lock_error</source>
         <target>Ein anderer Nutzer hat das Element "%name%" bearbeitet. Bitte %link_start%klicken Sie hier%link_end%, um die Seite neuzuladen und die neuesten Änderungen zu übernehmen.</target>
       </trans-unit>
-      <trans-unit id="zIKx665" resname="flash_batch_delete_success">
+      <trans-unit id="8KB4MoV" resname="flash_batch_delete_success">
         <source>flash_batch_delete_success</source>
         <target>Die ausgewählten Elemente wurden erfolgreich gelöscht.</target>
       </trans-unit>
-      <trans-unit id="KYYSdks" resname="flash_batch_no_elements_processed">
+      <trans-unit id="_kHNayG" resname="flash_batch_no_elements_processed">
         <source>flash_batch_no_elements_processed</source>
         <target>Keine Elemente verarbeitet.</target>
       </trans-unit>
-      <trans-unit id="GVYhlyS" resname="flash_batch_delete_error">
+      <trans-unit id="MciUhyL" resname="flash_batch_delete_error">
         <source>flash_batch_delete_error</source>
         <target>Beim Löschen der ausgewählten Elemente ist ein Fehler aufgetreten.</target>
       </trans-unit>
-      <trans-unit id="FCiOn_8" resname="flash_delete_error">
+      <trans-unit id="6TiEMEB" resname="flash_delete_error">
         <source>flash_delete_error</source>
         <target>Beim Löschen des Elements "%name%" ist ein Fehler aufgetreten.</target>
       </trans-unit>
-      <trans-unit id="6puP2k8" resname="flash_delete_success">
+      <trans-unit id="HLF2ude" resname="flash_delete_success">
         <source>flash_delete_success</source>
         <target>Das Element "%name%" wurde erfolgreich gelöscht.</target>
       </trans-unit>
-      <trans-unit id="QtCwnVB" resname="form_not_available">
+      <trans-unit id="tqtFEa." resname="form_not_available">
         <source>form_not_available</source>
         <target>Form nicht verfügbar.</target>
       </trans-unit>
-      <trans-unit id="PcTcww9" resname="link_breadcrumb_dashboard">
+      <trans-unit id="jC2RWQN" resname="link_breadcrumb_dashboard">
         <source>link_breadcrumb_dashboard</source>
         <target><![CDATA[<i class="fa fa-home"></i>]]></target>
       </trans-unit>
-      <trans-unit id="UU9SCcT" resname="title_delete">
+      <trans-unit id="fENnGG_" resname="title_delete">
         <source>title_delete</source>
         <target>Löschen bestätigen</target>
       </trans-unit>
-      <trans-unit id="f2ZO1hJ" resname="message_delete_confirmation">
+      <trans-unit id="CBAifzQ" resname="message_delete_confirmation">
         <source>message_delete_confirmation</source>
         <target>Sind Sie sicher, dass Sie das ausgewählte Element '%object%' löschen wollen?</target>
       </trans-unit>
-      <trans-unit id="ROv8KPh" resname="btn_delete">
+      <trans-unit id="kXLEd2a" resname="btn_delete">
         <source>btn_delete</source>
         <target>Ja, löschen</target>
       </trans-unit>
-      <trans-unit id="KDq8Tu." resname="title_batch_confirmation">
+      <trans-unit id="z8FZJFD" resname="title_batch_confirmation">
         <source>title_batch_confirmation</source>
         <target>Stapel-Aktion '%action%' bestätigen</target>
       </trans-unit>
-      <trans-unit id="ZsBdzPk" resname="message_batch_confirmation">
+      <trans-unit id="OugXPvL" resname="message_batch_confirmation">
         <source>message_batch_confirmation</source>
         <target>Sind Sie sicher, dass Sie diese Aktion bestätigen und für alle ausgewählten Elemente ausführen wollen?|Sind Sie sicher dass Sie diese Aktion bestätigen und für alle ausgewählten Elemente (%count%) ausführen wollen?</target>
       </trans-unit>
-      <trans-unit id="T_jSJVz" resname="message_batch_all_confirmation">
+      <trans-unit id="MJok6BN" resname="message_batch_all_confirmation">
         <source>message_batch_all_confirmation</source>
         <target>Sind Sie sicher, dass Sie diese Aktion bestätigen und für alle ausgewählten Elemente ausführen wollen?</target>
       </trans-unit>
-      <trans-unit id="zrhJbzi" resname="btn_execute_batch_action">
+      <trans-unit id="d81_9WK" resname="btn_execute_batch_action">
         <source>btn_execute_batch_action</source>
         <target>Ja, ausführen</target>
       </trans-unit>
-      <trans-unit id="vf3cxXi" resname="label_type_yes">
+      <trans-unit id="3H2L4xs" resname="label_type_yes">
         <source>label_type_yes</source>
         <target>ja</target>
       </trans-unit>
-      <trans-unit id="_KcfkqG" resname="label_type_no">
+      <trans-unit id="__UwhSn" resname="label_type_no">
         <source>label_type_no</source>
         <target>nein</target>
       </trans-unit>
-      <trans-unit id="bRLcwIX" resname="label_type_contains">
+      <trans-unit id="i7A1Y2k" resname="label_type_contains">
         <source>label_type_contains</source>
         <target>enthält</target>
       </trans-unit>
-      <trans-unit id="fp6U3Ax" resname="label_type_not_contains">
+      <trans-unit id="71CnxK8" resname="label_type_not_contains">
         <source>label_type_not_contains</source>
         <target>enthält nicht</target>
       </trans-unit>
-      <trans-unit id="1JAoUC1" resname="label_type_equals">
+      <trans-unit id="y2M4Run" resname="label_type_equals">
         <source>label_type_equals</source>
         <target>ist gleich</target>
       </trans-unit>
-      <trans-unit id="7Gd7Nj_" resname="label_type_not_equals">
+      <trans-unit id="b_kY9zr" resname="label_type_not_equals">
         <source>label_type_not_equals</source>
         <target>ist nicht gleich</target>
       </trans-unit>
-      <trans-unit id="LUzLGcC" resname="label_type_equal">
+      <trans-unit id="4ls7yDL" resname="label_type_equal">
         <source>label_type_equal</source>
         <target>=</target>
       </trans-unit>
-      <trans-unit id="2x6y0fJ" resname="label_type_greater_equal">
+      <trans-unit id="kb_RA3k" resname="label_type_greater_equal">
         <source>label_type_greater_equal</source>
         <target><![CDATA[>=]]></target>
       </trans-unit>
-      <trans-unit id="pmuplTg" resname="label_type_greater_than">
+      <trans-unit id="I9jG7ye" resname="label_type_greater_than">
         <source>label_type_greater_than</source>
         <target><![CDATA[>]]></target>
       </trans-unit>
-      <trans-unit id="nk_AAC2" resname="label_type_less_equal">
+      <trans-unit id="TrlQTY1" resname="label_type_less_equal">
         <source>label_type_less_equal</source>
         <target><![CDATA[<=]]></target>
       </trans-unit>
-      <trans-unit id="IPZqjhb" resname="label_type_less_than">
+      <trans-unit id="L0QgWuw" resname="label_type_less_than">
         <source>label_type_less_than</source>
         <target><![CDATA[<]]></target>
       </trans-unit>
-      <trans-unit id="ESa9ZnM" resname="label_date_type_equal">
+      <trans-unit id="VCn5THr" resname="label_date_type_equal">
         <source>label_date_type_equal</source>
         <target>=</target>
       </trans-unit>
-      <trans-unit id="OrKBcmM" resname="label_date_type_greater_equal">
+      <trans-unit id="PrymV0r" resname="label_date_type_greater_equal">
         <source>label_date_type_greater_equal</source>
         <target><![CDATA[>=]]></target>
       </trans-unit>
-      <trans-unit id="4YvygS4" resname="label_date_type_greater_than">
+      <trans-unit id="pQm3rlG" resname="label_date_type_greater_than">
         <source>label_date_type_greater_than</source>
         <target><![CDATA[>]]></target>
       </trans-unit>
-      <trans-unit id="crdIQ9j" resname="label_date_type_less_equal">
+      <trans-unit id="b7WKNgY" resname="label_date_type_less_equal">
         <source>label_date_type_less_equal</source>
         <target><![CDATA[<=]]></target>
       </trans-unit>
-      <trans-unit id="ahtc0xY" resname="label_date_type_less_than">
+      <trans-unit id="m7TJKR6" resname="label_date_type_less_than">
         <source>label_date_type_less_than</source>
         <target><![CDATA[<]]></target>
       </trans-unit>
-      <trans-unit id="FSkAuOh" resname="label_date_type_between">
+      <trans-unit id="QWk307i" resname="label_date_type_between">
         <source>label_date_type_between</source>
         <target>zwischen</target>
       </trans-unit>
-      <trans-unit id="Cx4_Twq" resname="label_date_type_not_between">
+      <trans-unit id="QnDUd12" resname="label_date_type_not_between">
         <source>label_date_type_not_between</source>
         <target>nicht zwischen</target>
       </trans-unit>
-      <trans-unit id="SvH61Zv" resname="label_filters">
+      <trans-unit id="8ezVJ4q" resname="label_filters">
         <source>label_filters</source>
         <target>Filter</target>
       </trans-unit>
-      <trans-unit id="I6HUeLU" resname="delete_or">
+      <trans-unit id="vAlj7UN" resname="delete_or">
         <source>delete_or</source>
         <target>oder</target>
       </trans-unit>
-      <trans-unit id="0yOoEuZ" resname="link_action_history">
+      <trans-unit id="RK9tVoR" resname="link_action_history">
         <source>link_action_history</source>
         <target>Versionen</target>
       </trans-unit>
-      <trans-unit id="xk3dplp" resname="td_action">
+      <trans-unit id="7JewyM1" resname="td_action">
         <source>td_action</source>
         <target>Aktion</target>
       </trans-unit>
-      <trans-unit id="GUH5j4g" resname="td_compare">
+      <trans-unit id="KpjEAsj" resname="td_compare">
         <source>td_compare</source>
         <target>Vergleichen</target>
       </trans-unit>
-      <trans-unit id="zO5sAIg" resname="td_revision">
+      <trans-unit id="fiGPg0g" resname="td_revision">
         <source>td_revision</source>
         <target>Versionen</target>
       </trans-unit>
-      <trans-unit id="WrQqIJu" resname="td_timestamp">
+      <trans-unit id="lDHjI.w" resname="td_timestamp">
         <source>td_timestamp</source>
         <target>Datum</target>
       </trans-unit>
-      <trans-unit id="fKXDxFG" resname="td_username">
+      <trans-unit id="yi1GMCQ" resname="td_username">
         <source>td_username</source>
         <target>Autor</target>
       </trans-unit>
-      <trans-unit id="1iUfw2z" resname="td_role">
+      <trans-unit id="PYjm406" resname="td_role">
         <source>td_role</source>
         <target>Rolle</target>
       </trans-unit>
-      <trans-unit id="IQ_0CyP" resname="label_view_revision">
+      <trans-unit id="bKOeDqa" resname="label_view_revision">
         <source>label_view_revision</source>
         <target>Version anzeigen</target>
       </trans-unit>
-      <trans-unit id="xTyyUGC" resname="label_compare_revision">
+      <trans-unit id="nGUGmLj" resname="label_compare_revision">
         <source>label_compare_revision</source>
         <target>Version vergleichen</target>
       </trans-unit>
-      <trans-unit id="rCWf3U3" resname="list_results_count_prefix">
+      <trans-unit id="N_SrcMY" resname="list_results_count_prefix">
         <source>list_results_count_prefix</source>
         <target>mehr als</target>
       </trans-unit>
-      <trans-unit id="mqDqD.Q" resname="list_results_count">
+      <trans-unit id="MJAezNQ" resname="list_results_count">
         <source>list_results_count</source>
         <target>1 Ergebnis|%count% Ergebnisse</target>
       </trans-unit>
-      <trans-unit id="CwIf.4T" resname="label_export_download">
+      <trans-unit id="dUlZQV." resname="label_export_download">
         <source>label_export_download</source>
         <target>Exportieren</target>
       </trans-unit>
-      <trans-unit id="RF7xcV1" resname="export_format_json">
+      <trans-unit id="sADyIhC" resname="export_format_json">
         <source>export_format_json</source>
         <target>JSON</target>
       </trans-unit>
-      <trans-unit id="BIzT4N0" resname="export_format_xml">
+      <trans-unit id="HtRjpD4" resname="export_format_xml">
         <source>export_format_xml</source>
         <target>XML</target>
       </trans-unit>
-      <trans-unit id="rrPhW3J" resname="export_format_csv">
+      <trans-unit id="lYMmCjy" resname="export_format_csv">
         <source>export_format_csv</source>
         <target>CSV</target>
       </trans-unit>
-      <trans-unit id="_xzlg02" resname="export_format_xls">
+      <trans-unit id="9oxHwEv" resname="export_format_xls">
         <source>export_format_xls</source>
         <target>XLS</target>
       </trans-unit>
-      <trans-unit id="m0eCOkM" resname="export_format_xlsx">
+      <trans-unit id="wrwOF.7" resname="export_format_xlsx">
         <source>export_format_xlsx</source>
         <target>XLSX</target>
       </trans-unit>
-      <trans-unit id="gqVIz5w" resname="loading_information">
+      <trans-unit id="oiWPEmk" resname="loading_information">
         <source>loading_information</source>
         <target>Informationen werden geladen…</target>
       </trans-unit>
-      <trans-unit id="5U4ghii" resname="btn_preview">
+      <trans-unit id="yJdw.RR" resname="btn_preview">
         <source>btn_preview</source>
         <target>Vorschau</target>
       </trans-unit>
-      <trans-unit id="8VtRz6Y" resname="btn_preview_approve">
+      <trans-unit id="GQPcVaM" resname="btn_preview_approve">
         <source>btn_preview_approve</source>
         <target>Bestätigen</target>
       </trans-unit>
-      <trans-unit id="ZQHMRCL" resname="btn_preview_decline">
+      <trans-unit id="MUpoAIF" resname="btn_preview_decline">
         <source>btn_preview_decline</source>
         <target>Ablehnen</target>
       </trans-unit>
-      <trans-unit id="UfSSa2B" resname="label_per_page">
+      <trans-unit id="xPlKw2m" resname="label_per_page">
         <source>label_per_page</source>
         <target>Einträge pro Seite</target>
       </trans-unit>
-      <trans-unit id="D8uTq5r" resname="list_select">
+      <trans-unit id="aqYehUh" resname="list_select">
         <source>list_select</source>
         <target>Auswählen</target>
       </trans-unit>
-      <trans-unit id="ftQG7bv" resname="confirm_exit">
+      <trans-unit id="LrdJTrl" resname="confirm_exit">
         <source>confirm_exit</source>
         <target>Es gibt ungespeicherte Änderungen.</target>
       </trans-unit>
-      <trans-unit id="G9rfLyL" resname="link_edit_acl">
+      <trans-unit id="kwdGOtG" resname="link_edit_acl">
         <source>link_edit_acl</source>
         <target>Bearbeiten</target>
       </trans-unit>
-      <trans-unit id="2WvO5PX" resname="btn_update_acl">
+      <trans-unit id="xt_op8K" resname="btn_update_acl">
         <source>btn_update_acl</source>
         <target>Speichern</target>
       </trans-unit>
-      <trans-unit id="wOsForg" resname="flash_acl_edit_success">
+      <trans-unit id="z4W_c48" resname="flash_acl_edit_success">
         <source>flash_acl_edit_success</source>
         <target>ACL Eintrag wurde erfolgreich gespeichert.</target>
       </trans-unit>
-      <trans-unit id="bmJLftF" resname="link_action_acl">
+      <trans-unit id="A_MxEf5" resname="link_action_acl">
         <source>link_action_acl</source>
         <target>ACL Manager</target>
       </trans-unit>
-      <trans-unit id="MJgeroH" resname="short_object_description_placeholder">
+      <trans-unit id="Wh0eJeU" resname="short_object_description_placeholder">
         <source>short_object_description_placeholder</source>
         <target>Nichts ausgewählt</target>
       </trans-unit>
-      <trans-unit id="GpsZsLw" resname="title_search_results">
+      <trans-unit id="3pm60_o" resname="title_search_results">
         <source>title_search_results</source>
         <target>Suchergebnisse: %query%</target>
       </trans-unit>
-      <trans-unit id="y.N3O53" resname="search_placeholder">
+      <trans-unit id="THmGsMS" resname="search_placeholder">
         <source>search_placeholder</source>
         <target>Suchen</target>
       </trans-unit>
-      <trans-unit id="D5ATu3X" resname="no_results_found">
+      <trans-unit id="uCBy95v" resname="no_results_found">
         <source>no_results_found</source>
         <target>Keine Suchergebnisse</target>
       </trans-unit>
-      <trans-unit id="6xh3Hx9" resname="add_new_entry">
+      <trans-unit id="Jh3wy8g" resname="add_new_entry">
         <source>add_new_entry</source>
         <target>Neuen Eintrag</target>
       </trans-unit>
-      <trans-unit id=".NYuTG5" resname="link_actions">
+      <trans-unit id="o2n73yY" resname="link_actions">
         <source>link_actions</source>
         <target>Aktionen</target>
       </trans-unit>
-      <trans-unit id="oWTNLVb" resname="list.label__actions">
+      <trans-unit id="EqHtllS" resname="list.label__actions">
         <source>list.label__actions</source>
         <target>Aktionen</target>
       </trans-unit>
-      <trans-unit id="mR3GCZj" resname="noscript_warning">
+      <trans-unit id="Omx4Ubn" resname="noscript_warning">
         <source>noscript_warning</source>
         <target>Javascript ist in ihrem Browser deaktiviert. Einige Funktionen werden nicht korrekt funktionieren.</target>
       </trans-unit>
-      <trans-unit id="wZo7_la" resname="message_form_group_empty">
+      <trans-unit id="94B9m1k" resname="message_form_group_empty">
         <source>message_form_group_empty</source>
         <target>Keine Felder verfügbar.</target>
       </trans-unit>
-      <trans-unit id="W1Ih2hh" resname="link_filters">
+      <trans-unit id="ye0rxsv" resname="link_filters">
         <source>link_filters</source>
         <target>Filter</target>
       </trans-unit>
-      <trans-unit id="I17b37b" resname="stats_view_more">
+      <trans-unit id="AnId0my" resname="stats_view_more">
         <source>stats_view_more</source>
         <target>mehr</target>
       </trans-unit>
-      <trans-unit id="CJI2Srn" resname="preview_view_more">
+      <trans-unit id="tETgBtW" resname="preview_view_more">
         <source>preview_view_more</source>
         <target>mehr</target>
       </trans-unit>
-      <trans-unit id="rRRcWbX" resname="title_select_subclass">
+      <trans-unit id="xzPZ.y9" resname="title_select_subclass">
         <source>title_select_subclass</source>
         <target>Typ auswählen</target>
       </trans-unit>
-      <trans-unit id="P.hdH78" resname="no_subclass_available">
+      <trans-unit id="zn6LVRv" resname="no_subclass_available">
         <source>no_subclass_available</source>
         <target>Keine Typen verfügbar.</target>
       </trans-unit>
-      <trans-unit id="7LhsphI" resname="label_unknown_user">
+      <trans-unit id="lfGcih3" resname="label_unknown_user">
         <source>label_unknown_user</source>
         <target>unbekannt</target>
       </trans-unit>
-      <trans-unit id="_derf9G" resname="read_more">
+      <trans-unit id="5pADz86" resname="read_more">
         <source>read_more</source>
         <target>mehr anzeigen</target>
       </trans-unit>
-      <trans-unit id="Yr26Id4" resname="read_less">
+      <trans-unit id="9GwmA_I" resname="read_less">
         <source>read_less</source>
         <target>weniger anzeigen</target>
       </trans-unit>
-      <trans-unit id="WPzArF9" resname="toggle_navigation">
+      <trans-unit id="AZb0LI8" resname="toggle_navigation">
         <source>toggle_navigation</source>
         <target>Navigation ein-/ausblenden</target>
       </trans-unit>
-      <trans-unit id="FXBYlzq" resname="label_type_starts_with">
+      <trans-unit id="UktQWbw" resname="label_type_starts_with">
         <source>label_type_starts_with</source>
         <target>beginnt mit</target>
       </trans-unit>
-      <trans-unit id="w8F0A53" resname="label_type_ends_with">
+      <trans-unit id="Tsn7w0N" resname="label_type_ends_with">
         <source>label_type_ends_with</source>
         <target>endet mit</target>
       </trans-unit>
-      <trans-unit id="FrWYz3e" resname="go_to_the_first_page">
+      <trans-unit id="phFCENM" resname="go_to_the_first_page">
         <source>go_to_the_first_page</source>
         <target>Gehen Sie zur ersten Seite</target>
       </trans-unit>
-      <trans-unit id="jGl25bV" resname="admin">
+      <trans-unit id="NhHklRD" resname="admin">
         <source>admin</source>
         <target>Admin</target>
       </trans-unit>
-      <trans-unit id="48SznW1" resname="Shared">
+      <trans-unit id="EVteIn7" resname="Shared">
         <source>Shared</source>
         <target>Allgemein</target>
       </trans-unit>
-      <trans-unit id="NBHNMKt" resname="Kantine">
+      <trans-unit id="2gNScjP" resname="Kantine">
         <source>Kantine</source>
         <target>Kantine</target>
       </trans-unit>
-      <trans-unit id="TSuzaPk" resname="Übersicht">
+      <trans-unit id="V3b1wEP" resname="Übersicht">
         <source>Übersicht</source>
         <target>Übersicht</target>
       </trans-unit>
-      <trans-unit id="0xQwunu" resname="Zeiterfassung">
+      <trans-unit id="chWWzCF" resname="Zeiterfassung">
         <source>Zeiterfassung</source>
         <target>Zeiterfassung</target>
       </trans-unit>

@@ -5,15 +5,15 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="irX1QuH" resname="message_close">
+      <trans-unit id="ZNtCQAF" resname="message_close">
         <source>message_close</source>
         <target>Schließen</target>
       </trans-unit>
-      <trans-unit id="GHiXzgr" resname="more">
+      <trans-unit id="ZI9jnUs" resname="more">
         <source>more</source>
         <target>mehr</target>
       </trans-unit>
-      <trans-unit id="T907YgG" resname="less">
+      <trans-unit id="PuvX.qm" resname="less">
         <source>less</source>
         <target>weniger</target>
       </trans-unit>
