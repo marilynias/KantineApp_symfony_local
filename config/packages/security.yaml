@@ -15,7 +15,8 @@ security:
         #         property: username
     
     role_hierarchy:
-        ROLE_ADMIN:             [ROLE_USER, ROLE_ADMIN_ORDER_ALL, ROLE_FA, ROLE_ADMIN_COSTUMER_ALL ]
+        ROLE_CRON:              [ROLE_ADMIN_COSTUMER_DELETE]
+        ROLE_ADMIN:             [ROLE_USER, ROLE_ADMIN_ORDER_ALL, ROLE_FA, ROLE_ADMIN_COSTUMER_ALL , ROLE_CRON]
         ROLE_SUPER_ADMIN:       [ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
 
 when@test:

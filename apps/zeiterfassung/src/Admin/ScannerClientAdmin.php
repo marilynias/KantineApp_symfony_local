@@ -24,7 +24,6 @@ final class ScannerClientAdmin extends AbstractAdmin
 
     protected function configureListFields(ListMapper $list): void
     {
-        $scanner_admin = $this->getConfigurationPool()->getAdminByClass(ScannerLogEntry::class);
         $list
             ->add('id')
             ->add('uname')
@@ -60,6 +59,7 @@ final class ScannerClientAdmin extends AbstractAdmin
 
     protected function configureShowFields(ShowMapper $show): void
     {
+        
         $id = $this->getSubject()->getId();
         $show
             ->add('id')

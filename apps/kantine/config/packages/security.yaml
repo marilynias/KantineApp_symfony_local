@@ -56,7 +56,6 @@ security:
             #     token_handler: App\Security\AccessTokenHandler
 
     role_hierarchy:
-        ROLE_CRON:              [ROLE_ADMIN_COSTUMER_DELETE]
         ROLE_USER_KANTINE:      [ROLE_ADMIN_ORDER_ALL]
         ROLE_ADMIN:             [ROLE_USER, ROLE_FA, ROLE_USER_KANTINE, ROLE_CRON, ROLE_ADMIN_COSTUMER_ALL ]
 

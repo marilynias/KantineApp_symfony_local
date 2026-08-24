@@ -2,7 +2,7 @@ security:
   
     role_hierarchy:
         # ROLE_ADMIN_TIMEENTRY_ALL: [ROLE_ADMIN_TIMEENTRY_CREATE, ROLE_ADMIN_TIMEENTRY_LIST, ROLE_ADMIN_TIMEENTRY_DELETE, ROLE_ADMIN_TIMEENTRY_EDIT, ROLE_ADMIN_TIMEENTRY_EXPORT, ROLE_ADMIN_TIMEENTRY_VIEW]
-        ROLE_FA: [ROLE_ADMIN_TIMEENTRY_ALL, ROLE_ADMIN_COSTUMER_EDIT, ROLE_ADMIN_COSTUMER_LIST]
+        ROLE_FA:        [ROLE_ADMIN_TIMEENTRY_ALL, ROLE_ADMIN_COSTUMER_EDIT, ROLE_ADMIN_COSTUMER_LIST]
         
     # encoders:
     #     FOS\UserBundle\Model\UserInterface: bcrypt
@@ -25,7 +25,14 @@ security:
 
             # https://symfony.com/doc/current/security/impersonating_user.html
             # switch_user: true
-
+        # Required for All-inkl CRON, it only tries authenticating with uses http_basic
+        cron:
+            lazy: true
+            pattern: ^/cron/(.*)
+            provider: sonata_user_bundle
+            context: user
+            http_basic:
+                realm: Secured Area
 
         admin:
             lazy: true

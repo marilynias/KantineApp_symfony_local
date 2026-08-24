@@ -42,7 +42,7 @@ final class OrderAdmin extends AbstractAdmin
                 ]
             ])
             ->add('Costumer.active', null, [
-                'label' => $this->translator->trans('Costumer active')
+                'label' => 'Costumer active'
             ]);
         } else {
             $filter
