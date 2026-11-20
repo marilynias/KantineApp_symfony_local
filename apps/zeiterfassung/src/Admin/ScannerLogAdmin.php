@@ -77,8 +77,7 @@ final class ScannerLogAdmin extends AbstractAdmin
     protected function configureFormFields(FormMapper $form): void
     {
         $form
-            ->add('id')
-            ->add('level', ChoiceList::class, [
+            ->add('level', ChoiceType::class, [
                 'choices' => ScannerLogEntry::log_levels()
                 ])
             ->add('message')
